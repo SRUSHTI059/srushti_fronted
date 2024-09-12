@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+h1{
+    background-color: burlywood;
+}
+p{
+    background-color: darkgray;
+}
+span{
+    background-color: darkgoldenrod;
+}
+div{
+    background-color: darkgray;
+    text-align: center;
+    font: bolder;
+    font-size: 30px;
+    
+}
