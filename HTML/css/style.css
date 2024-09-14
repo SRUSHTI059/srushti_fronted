@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: aqua;
 }
 h1{
@@ -16,4 +16,37 @@ div{
     font: bolder;
     font-size: 30px;
     
+} */
+
+/* RULES CSS */
+
+/* CSS @import Rule */
+
+   @import 'style2.css';
+   @import 'style1.css';
+
+/* CSS Cascade Rule
+
+priority: id/class/tag */
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color:chartreuse ;
+    border: 2px solid black;
+}
+
+.glass{
+    background-color: orange;
+}
+
+#innerbox{
+    background-color: black;
+    border: 3px solid white;
+}
+
+div:nth-child(1){
+    background-color: black;
+    border: 3px solid white;
+    height: 500px;
 }
