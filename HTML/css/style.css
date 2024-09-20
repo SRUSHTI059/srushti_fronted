@@ -22,14 +22,14 @@ div{
 
 /* CSS @import Rule */
 
-   @import 'style2.css';
-   @import 'style1.css';
+   /* @import 'style2.css';
+   @import 'style1.css'; */
 
 /* CSS Cascade Rule
 
 priority: id/class/tag */
 
-div{
+/* div{
     width: 100px;
     height: 100px;
     background-color:chartreuse ;
@@ -49,4 +49,116 @@ div:nth-child(1){
     background-color: black;
     border: 3px solid white;
     height: 500px;
+} */
+
+/* Css Psuedo Class */
+/* 
+h1:first-child{
+    background-color: green;
+    color:white;
+}  */
+
+
+/* h1:last-child{
+    background-color: green;
+    color:white
 }
+
+h1:first-of-type{
+    background-color: green;
+    color:white;
+} 
+
+/* h1:last-of-type{
+    background-color: green;
+    color:white;
+} */
+
+/* h1:nth-child(5){
+    background-color: green;
+    color:white;
+} */
+
+/* h1:nth-of-type(10){
+    background-color: green;
+    color:white;
+} */
+
+/* h1:nth-last-of-type(7){
+    background-color: green;
+    color:white;
+} */
+/* 
+h1:only-child{
+    background-color: red;
+    color:white;
+} */
+
+/* h1:only-of-type{
+    background-color: red;
+    color:white;
+}  */
+
+/* :where(.box){
+    background-color: red;
+}*/
+
+/* div:not(.box-1){
+    background-color: green;
+}  */
+
+a[target="_self"]{
+    background-color: yellow;
+    color: red;
+}
+
+
+a[target="_blank"]{
+    background-color: yellow;
+    color: red;
+}    
+
+input[type="text"]{
+    background-color: yellow;
+    color: red;
+}
+
+a:nth-of-type(4){
+    background-color: yellow;
+    color: red;
+}
+
+:where(.h1){
+    background-color: yellow;
+    color: red;
+}
+
+:where(.head){
+    background-color: yellow;
+    color: red;
+}
+
+:where(.heading){
+    background-color: yellow;
+    color: red;
+}
+
+section h1:last-of-type{
+    background-color: yellow;
+    color: red;
+}
+
+div h1:nth-of-type(1){
+    background-color: yellow;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
