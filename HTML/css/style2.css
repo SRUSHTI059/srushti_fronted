@@ -31,20 +31,19 @@
    */
  
 
-
-    .back{
+    .box{
         width: 800px;
         height: 800px;
         /* background-color: plum; */
         background-image: url(./img/image1.jpg);
         background-size: cover; 
-        background-repeat: round;
+        background-repeat: no-repeat;
         background-position: center;
         background-origin: border-box;
         background-attachment: scroll;
-        background-clip: border-box;
+        /* background-clip: border-box; */
         padding: 80px;
-        background: radial-gradient(circle, rgba(238,174,202,1) 55%, rgba(148,187,233,1) 71%);
+        /* background: radial-gradient(circle, rgba(238,174,202,1) 55%, rgba(148,187,233,1) 71%); */
         border: solid transparent;
     }
 
