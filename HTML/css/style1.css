@@ -61,8 +61,35 @@ div[class$="os"]{
     background-color: black;
 }
 
-div[class*="b"]{
+div[class*="ss"]{
     background-color: blueviolet;
 }
+
+/* Css Psuedo Element Selector */
+
+/* counting space */
+
+.heading:before{
+    content:"hii " 
+}
+
+.heading:after{
+    content:" hii " 
+}
+
+p::selection{
+    background-color: plum;
+    text-decoration: underline;
+}
+
+p::first-line{
+    background-color: gold;
+}
+
+p::first-letter{
+    font-size: 50px;
+} 
+
+
 
 
