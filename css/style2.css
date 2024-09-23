@@ -62,9 +62,51 @@
         white-space */
 
         
-    .glass{
+    /* .glass{
         background-color: cadetblue;
         color: blue;
-        
+    } */
+
+    /* p{
+        text-align: center;
+        text-decoration: double;
+        text-transform: capitalize;
+        text-shadow: 5px;
+        text-decoration-color: brown;
+        text-decoration-thickness: 3px;
+        text-indent: 200px;
+        line-height: 40px;
+        letter-spacing: 30px;
+        word-spacing: 50px;
+        word-wrap: break-word;
+    } */
+
+    /* p{
+        white-space: nowrap;
+        white-space: wrap;
+        white-space:  pre;
+    } */
+
+    /* Css Verticle Alignement */
+
+    p{
+    font-size: 40px;
+    text-decoration: underline;
+    border-top:1px solid black;
     }
 
+    p img{
+        height: 60px;
+        width: 60px;
+        vertical-align: baseline;
+        vertical-align: text-top;
+        vertical-align: text-bottom;
+        vertical-align: super;
+        vertical-align: sub;
+        vertical-align: middle;
+        vertical-align: top;
+    }
+
+
+
+   
