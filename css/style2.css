@@ -176,14 +176,27 @@
             box-sizing: border-box;
         } 
 
-        .mainbox{
-            display: flex;
-            /* display: inline-flex; */
-            /* display: grid; */
-            /* justify-content: center; */
-            /* display: inline-grid; */
+        .main{
+            /* height: 500px; */
+            border: 2px solid black;
+            /* display: flex; */
+            display: inline-flex;
+            display: grid;
+            justify-content: center;
+            display: inline-grid;
             display: none;
             visibility: hidden;
+        }
+
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: purple;
+            border:1px solid lightcoral;
+            margin: 20px;
+            display: inline;
+            display: inline-block;
+            display: block;
         }
     
 
