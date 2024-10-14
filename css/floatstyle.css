@@ -65,5 +65,19 @@ img{
     filter: opacity(0.2);
     filter: saturate(30%);
     filter: sepia(20%);
-    filter:drop-shadow(10px 20px 5px rgb(201, 88, 201));
+    /* filter:drop-shadow(10px 20px 5px rgb(201, 88, 201)); */
+    box-shadow: 10px 20px 100px black;
+}
+
+/* Css Units */
+
+/* Absolute Units */  
+/* Relative Units */
+/* calc() */
+
+.container{
+    /* width: calc(100% - 20%);
+    height: calc(50%); */
+    /* width: 58%; */
+    width: 500px;
 }
