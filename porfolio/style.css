@@ -59,6 +59,16 @@ body {
   color: #13adc7;
 }
 
+.fa-bars{
+  color: #ededed;
+}
+
+.fa-xmark{
+  margin-right: 150px;
+  margin-left: 20px;
+  color: #ededed;
+}
+
 /* ----------------home------------------------ */
 
 .home {
@@ -582,3 +592,5 @@ form .btn2{
 .copyright i{
   color: #ff004f;
 }
+
+
