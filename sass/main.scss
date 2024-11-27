@@ -60,11 +60,7 @@
 // placeholder props
 
 .box{
-    background-color: $bg-color-2;
-    height: ($h-2 * 3);
-    width: ($w-4 * 2);
-    color: $color-1;
-    display: $justify-c;
+    %shared style;
 }
 
 %shared style{
