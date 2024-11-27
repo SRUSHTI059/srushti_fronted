@@ -10,6 +10,13 @@
             border: 1px solid black;
             background: purple;
             color: white;
+            margin: 5px;
+        }
+
+        .col-6{
+            border: 1px solid black;
+            background: green;
+            color: white;
         }
     </style>
 </head>
@@ -17,20 +24,162 @@
     
 <!-- alingnment colum -->
 
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col">col-1</div>
-            <div class="col">col-2</div>
-            <div class="col">col-3</div>
-        </div>
+<!-- <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>  
 
-        <div class="row align-items-start">
-            <div class="col">col-1</div>
-            <div class="col">col-1</div>
-            <div class="col">col-1</div>
-        </div>
+    <div class="row align-items-center">
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
     </div>
 
+    <div class="row align-items-end">
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+    </div>
+</div> -->
+
+<!-- <div class="container text-center">
+    <div class="row">
+        <div class="col align-self-start">
+            col-1
+        </div>
+        <div class="col align-self-center">
+            col-2
+        </div>
+    </div>
+</div> -->
+
+
+<!-- gutter -->
+
+<!-- <div class="container text-center">
+    <div class="row g-5">
+        <div class="col-6">
+           <div>
+            column gutter-1
+           </div>
+        </div>
+        <div class="col-6">
+            <div>
+                column gutter-2
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <div class="container-fluid">
+    <form class="d-flex">
+      <button class="btn btn-outline-dark rounded-left" type="submit">Search</button>
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    </form>
+    <div class="navbar">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link navbar-brand" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-brand" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled navbar-brand" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <div class="container m-5">
+    <form class="row g-3">
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email</label>
+      </div>
+      <div class="col-md-6">
+        <input type="password" class="form-control" id="floatingInput" placeholder="password">
+        <label for="floatingInput">Password</label>
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose your age</option>
+          <option>1-18</option>
+          <option>18-30</option>
+          <option>30-50</option>
+          <option>50-80</option>
+          <option>80 up</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </form>
+  </div>
+  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
