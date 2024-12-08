@@ -59,26 +59,64 @@ nav li i{
     border-radius: 20px;
 }
 
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .slap{
-    display: inline !important;
-    border: none !important;
-    box-shadow: none !important;
-    height: 70px !important;
-    width: 70px !important;
-    margin: 0 0.07em !important;
-    vertical-align: -0.1em !important;
-    background: none !important;
+    height: auto !important;
+    width: 70px;
+    margin: 0 15px !important;
+    /* vertical-align: -0.1em !important; */
     padding: 0 !important;
 }
 
-section div{
-    display
-}
 
 h1{
     color: #343F52;
     font-family: "Space Grotesk Sandbox", Sans-serif;
     font-weight: 600;
-    font-size: 600;
+    font-size: 60px;
     line-height: 1.15em;
+    margin-top: 160px;
+    word-spacing: 5px;
+    text-align: center;
 }
+
+.avtar{
+    height:auto;
+    width: 70px;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+    margin: 37px;
+    font-family: "Space Grotesk Sandbox", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.6em;
+    word-spacing: 0px;
+    color: gray;
+}
+
+.btn{
+    text-decoration: none;
+    font-family: "Space Grotesk Sandbox", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid black;
+    padding: 14px 28px 12px 28px;
+    background: black;
+    color: white;
+    margin-left: 548px;
+    border-radius: 10px;
+}
+
+.arrow-right{
+    color: white;
+    margin: 0 5px;
+}
+
