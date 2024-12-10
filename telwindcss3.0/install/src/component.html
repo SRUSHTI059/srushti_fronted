@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    margin: {
+                        '600px': '600px',
+                    },
+                    colors: {
+
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -45,9 +59,90 @@
         <div class="font-normal text-md text-gray-500 my-7 ">Sitemap. Privacy <i class="fa-regular fa-copyright"></i> Robowolf, saint-Peterburg</div>
     </footer>
     <div class="flex justify-center">
-        <div class="rounded-full bg-gray-300 text-lg m-3 size-14 flex justify-center items-center"><i class="fa-brands fa-twitter"></i></div>
-        <div class="rounded-full bg-gray-300 text-lg m-3 size-14 flex justify-center items-center"><i class="fa-brands fa-linkedin-in"></i></div>
-        <div class="rounded-full bg-gray-300 text-lg m-3 size-14 flex justify-center items-center"><i class="fa-brands fa-google"></i></div>
+        <div class="rounded-full bg-gray-300 text-lg m-3 size-14 flex justify-center items-center"><i class="font-black text-xl fa-brands fa-twitter"></i></div>
+        <div class="rounded-full bg-gray-300 text-lg m-3 size-14 flex justify-center items-center"><i class="font-black text-xl fa-brands fa-linkedin-in"></i></div>
+        <div class="rounded-full bg-gray-300 text-lg m-3 size-14 flex justify-center items-center"><i class="font-black text-xl fa-brands fa-google"></i></div>
     </div>
+
+    <!-- component-2 -->
+
+     <h1 class="flex justify-center items-center font-bold mt-8 text-3xl">component-2</h1>
+
+     
+     <div class="flex justify-center items-center mt-14 text-lg font-medium">
+         <div class="size-24"><img src="./img/logo-4.png"></div>
+        <div class="ml-44 mr-16 ">
+            <div class="">Company</div>
+            <ul class="font-normal text-md text-gray-500">
+                <li class="mt-2">Brand</li>
+                <li class="mt-2">Contact Us</li>
+                <li class="mt-2">Blog</li>
+            </ul>
+        </div>
+        <div class="mx-16 ">
+            <div class="">Legal</div>
+            <ul class="font-normal text-md text-gray-500">
+                <li class="mt-2">Privacy</li>
+                <li class="mt-2">Terms</li>
+                <li class="mt-2">Support</li>
+            </ul>
+        </div>
+        <div class="mx-16">
+            <div >Products</div>
+            <ul class="font-normal text-md text-gray-500">
+                <li class="mt-2">Latest Features</li>
+                <li class="mt-2">Product roadmap</li>
+                <li class="mt-2">Knowledge base</li>
+            </ul>
+        </div>
+        <div class="ml-16 ">
+            <div class="m-auto">Accounts</div>
+            <button class="border-2 border-purple-500 mt-2 items-center text-white px-6 py-1 rounded-md bg-purple-500">Sign in</button><br>
+            <button class="border-2 border-purple-500 my-3 text-white px-6 py-1 rounded-md bg-purple-500">Sign up</button>
+        </div>
+     </div>
+
+     <hr class="mt-20 mx-6 h-0.5 bg-gray-300">
+
+    <footer class="flex justify-center items-center">
+        <div class="font-normal text-sm text-black-500 my-2 ">Sitemap. Privacy <i class="fa-regular fa-copyright"></i> Robowolf, saint-Peterburg</div>
+    </footer>
+    <div class="flex justify-center">
+        <div class="rounded-full bg-gray-300 mx-3 mt-1 size-14 flex justify-center items-center"><i class=" font-black text-xl fa-brands fa-twitter"></i></div>
+        <div class="rounded-full bg-gray-300 mx-3 mt-1 size-14 flex justify-center items-center"><i class=" font-black text-xl fa-brands fa-linkedin-in"></i></div>
+        <div class="rounded-full bg-gray-300 mx-3 mt-1 size-14 flex justify-center items-center"><i class=" font-black text-xl fa-brands fa-google"></i></div>
+    </div>
+
+    <!-- component-3 -->
+
+    <h1 class="flex justify-center items-center font-bold mt-8 text-3xl">component-3</h1>
+
+    <h1 class="font-semibold text-3xl flex justify-center items-center mt-14">What people say about us</h1>
+    <div class="flex justify-center items-center mt-5">
+        <div class=""><i class="font-semibold text-5xl text-gray-300 fa-solid fa-quote-left"></i><br>
+            <p class="ml-10 mr-20"><span><<</span>Through the gravity still dragged at him, his muscles were making great efforts <br> to adjust. After the daily classes he no longer collapsed immedeatlly into bed. <span>>></span>
+            </p>
+            <div>
+                <i class="font-semibold text-5xl text-gray-300 fa-solid fa-quote-right ml-600px"></i>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center items-center my-10 ">
+        <div class="size-28 rounded-full bg-cover mx-16 "><img src="./img/g1.png"><h3 class="flex justify-center items-center">Rissoto Nero</h3></div><br>
+        <div class="size-28 rounded-full bg-cover mx-16 "><img src="./img/g2.jpg"><h3 class="flex justify-center items-center">Keiji Akira</h3></div>
+        <div class="size-28 rounded-full bg-cover mx-16 "><img src="./img/g3.png"><h3 class="flex justify-center items-center">Goku San</h3></div>
+        <div class="size-28 rounded-full bg-cover mx-16 "><img src="./img/g4.png"><h3 class="flex justify-center items-center">Leone Abachio</h3></div>
+    </div>
+
+    <hr class="mt-20 mx-6 h-0.5 bg-gray-300">
+
+    <div class="flex justify-center">
+        <div class="rounded-full bg-gray-300 mx-3 my-6 size-11 flex justify-center items-center"><i class=" font-black text-xl fa-brands fa-facebook-f"></i></div>
+        <div class="rounded-full bg-gray-300 mx-3 my-6 size-11 flex justify-center items-center"><i class=" font-black text-xl fa-brands fa-twitter"></i></div>
+        <div class="rounded-full bg-gray-300 mx-3 my-6 size-11 flex justify-center items-center"><i class=" font-black text-xl fa-brands fa-instagram"></i></div>
+        <div class="rounded-full bg-gray-300 mx-3 my-6 size-11 flex justify-center items-center"><i class=" font-black text-xl fa-brands fa-google"></i></div>
+        <div class="rounded-full bg-gray-300 mx-3 my-6 size-11 flex justify-center items-center"><i class=" font-black text-xl fa-brands fa-linkedin-in"></i></div>
+    </div>
+
 </body>
 </html>
