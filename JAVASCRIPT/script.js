@@ -134,19 +134,142 @@
 //     console.log(str);
 // }
 
-// STRING OPERATORS
+// STRING OPERATORS [inside () all operators works]
 
-let str = 'java' + ' script'
-console.log(str);
+// let str = 'java' + ' script'
+// console.log(str);
 
-let str1 = 'Javascript' - 'Lecture'
-console.log(str1);
+// let str1 = 'Javascript' - 'Lecture'
+// console.log(str1);
 
-let math = 100 + 100 + 'Javascript' + 100 + 100 - 100 - 100
-console.log(math);
+// let math = 100 + 100 + 'Javascript' + 100 + 100 - 100 - 100
+// console.log(math);
 
-let sum = 'srushti ' + (100 + 100 ) + 100
-console.log(sum);
+// let sum = 'srushti ' + (100 + 100 ) + 100
+// console.log(sum);
+
+// let str2 = 'java' + 100 + 100
+// console.log(str2);
+
+// let str3 = 'javaa' + 100 - 100
+// console.log(str3);
+
+// let math2 = "100" + 100 - 100 - 100 // 99900
+// console.log(math2);
+
+// let math3 = (100 - 100 + 'Javascript' + 100 + 100 + 100) + 100 // 0javascript100100100100
+// console.log(math3);
+
+
+// operators in js
+
+// 1. Arithmetic
+// 2. Assigement
+// 3. Logical
+// 4. Comparision
+// 5. Ternary
+// 6. typeOf
+// 7. instanceOf
+// 8. Bitwise 
+// 9. ++ , -- [ unary operators ]
+
+// Arithmetic operators
+
+{
+    let x=10
+    let y=5
+
+    console.log(x + y);
+    console.log(x - y);
+    console.log(x * y);
+    console.log(x / y);
+    console.log(x % y);
+    console.log(x ** y);
+    
+}
+
+// Assignment operators
+
+{
+    let x=10
+    let y=5
+
+    console.log(x += y); //15
+    console.log(x -= y); //10
+    console.log(x /= y); //2
+    console.log(x *= y); //10
+    console.log(x %= y); //0
+    console.log(x **= y); //0
+    
+}
+
+// logical operators
+
+{
+    let x=true
+    let y=false
+    let z=true
+
+    console.log(x && y);
+    console.log(x && z);
+    console.log(x && y && z);
+    console.log(x || y);
+    console.log(x || z);
+    console.log(x || y || z);
+    console.log(!(x || y) && !(x || z) && !(y && z)); // false
+    
+}
+
+// comparison operators
+
+{
+    let x=1000
+    let y="1000"
+
+    console.log(x == y);
+    console.log(x === y);  // data type check
+    console.log(x != y);
+    console.log(x !== y);
+    console.log(x > y);
+    console.log(x < y);
+    console.log(x >= y);
+    console.log(x <= y);
+    
+}
+
+// Ternary Operator [?]
+
+// syntax : statement ? code1 : code2
+
+{
+    let Age=17
+
+    Age>=18 ? console.log('you are eligible') : console.log('you are under 18');
+    
+}
+
+// typeof operator
+
+{
+    console.log(typeof 'string');
+    console.log(typeof true);
+    console.log(typeof 12);
+    console.log(typeof []);
+    
+}
+
+// Bitwise Operators [with boolean values]
+
+{
+    let x=10 // 1010
+    let y=5 //  0101
+
+    console.log(x & y);
+    console.log(x | y);
+    
+    
+    
+}
 
 
 
