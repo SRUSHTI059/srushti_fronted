@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
-
-
 
 *{
     box-sizing: border-box;
@@ -31,7 +28,8 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-family: "Space Grotesk Sandbox", Sans-serif;
+    font-size: 17px;
     opacity: 0.9;
 }
 
@@ -43,10 +41,17 @@ nav li i{
     border-radius: 10px;
     background-color: black;
     color: white;
-    font-size: 20px;
-    font-weight: bold;
+    font-family: "Space Grotesk Sandbox", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    transition: transform 0.3s;
     width: 150px;
     height: 50px;
+}
+
+.navbtn:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 10px 0 lightgray;
 }
 
 .home{
