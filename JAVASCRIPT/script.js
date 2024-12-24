@@ -268,6 +268,24 @@
     console.log(x | y);
 }
 
+// Task:-   for(let key in Profile){
+    //     console.log(`For in ${Profile.key}`); 
+    // }
+
+    {
+        let profile = {
+            name: 'Rakesh',
+            age: 45,
+            email: `Rakesh@gmail.com`,
+            occupation: 'farmer'
+    };
+        for(let key in profile){
+            // console.log(`${key}`);   
+            // console.log(`${profile[key]}`);
+            console.log(`${key} = ${profile[key]}`);
+        }
+    }
+
 
 
 
