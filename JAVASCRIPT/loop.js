@@ -59,6 +59,8 @@
 // reverse string
 
 {
-    let 
+    let str = "srushti"
+
+    
 }
 
