@@ -175,116 +175,341 @@
 
 // Arithmetic operators
 
-{
-    let x=10
-    let y=5
+// {
+//     let x=10
+//     let y=5
 
-    console.log(x + y);
-    console.log(x - y);
-    console.log(x * y);
-    console.log(x / y);
-    console.log(x % y);
-    console.log(x ** y);
+//     console.log(x + y);
+//     console.log(x - y);
+//     console.log(x * y);
+//     console.log(x / y);
+//     console.log(x % y);
+//     console.log(x ** y);
     
-}
+// }
 
 // Assignment operators
 
-{
-    let x=10
-    let y=5
+// {
+//     let x=10
+//     let y=5
 
-    console.log(x += y); //15
-    console.log(x -= y); //10
-    console.log(x /= y); //2
-    console.log(x *= y); //10
-    console.log(x %= y); //0
-    console.log(x **= y); //0
+//     console.log(x += y); //15
+//     console.log(x -= y); //10
+//     console.log(x /= y); //2
+//     console.log(x *= y); //10
+//     console.log(x %= y); //0
+//     console.log(x **= y); //0
     
-}
+// }
 
 // logical operators
 
-{
-    let x=true
-    let y=false
-    let z=true
+// {
+//     let x=true
+//     let y=false
+//     let z=true
 
-    console.log(x && y);
-    console.log(x && z);
-    console.log(x && y && z);
-    console.log(x || y);
-    console.log(x || z);
-    console.log(x || y || z);
-    console.log(!(x || y) && !(x || z) && !(y && z)); // false
+//     console.log(x && y);
+//     console.log(x && z);
+//     console.log(x && y && z);
+//     console.log(x || y);
+//     console.log(x || z);
+//     console.log(x || y || z);
+//     console.log(!(x || y) && !(x || z) && !(y && z)); // false
     
-}
+// }
 
 // comparison operators
 
-{
-    let x=1000
-    let y="1000"
+// {
+//     let x=1000
+//     let y="1000"
 
-    console.log(x == y);
-    console.log(x === y);  // data type check
-    console.log(x != y);
-    console.log(x !== y);
-    console.log(x > y);
-    console.log(x < y);
-    console.log(x >= y);
-    console.log(x <= y);
-    
-}
+//     console.log(x == y);
+//     console.log(x === y);  // data type check
+//     console.log(x != y);
+//     console.log(x !== y);
+//     console.log(x > y);
+//     console.log(x < y);
+//     console.log(x >= y);
+//     console.log(x <= y);
+   
+// }
 
 // Ternary Operator [?]
 
 // syntax : statement ? code1 : code2
 
-{
-    let Age=17
+// {
+//     let Age=17
 
-    Age>=18 ? console.log('you are eligible') : console.log('you are under 18');
+//     Age>=18 ? console.log('you are eligible') : console.log('you are under 18');
     
-}
+// }
 
 // typeof operator
 
-{
-    console.log(typeof 'string');
-    console.log(typeof true);
-    console.log(typeof 12);
-    console.log(typeof []);
+// {
+//     console.log(typeof 'string');
+//     console.log(typeof true);
+//     console.log(typeof 12);
+//     console.log(typeof []);
     
-}
+// }
 
 // Bitwise Operators [with boolean values]
 
-{
-    let x=10 // 1010
-    let y=5 //  0101
+// {
+//     let x=10 // 1010
+//     let y=5 //  0101
 
-    console.log(x & y);
-    console.log(x | y);
-}
+//     console.log(x & y);
+//     console.log(x | y);
+// }
 
 // Task:-   for(let key in Profile){
     //     console.log(`For in ${Profile.key}`); 
     // }
 
-    {
-        let profile = {
-            name: 'Rakesh',
-            age: 45,
-            email: `Rakesh@gmail.com`,
-            occupation: 'farmer'
-    };
-        for(let key in profile){
-            // console.log(`${key}`);   
-            // console.log(`${profile[key]}`);
-            console.log(`${key} = ${profile[key]}`);
-        }
-    }
+    // {
+    //     let profile = {
+    //         name: 'Rakesh',
+    //         age: 45,
+    //         email: `Rakesh@gmail.com`,
+    //         occupation: 'farmer'
+    // };
+    //     for(let key in profile){
+    //         // console.log(`${key}`);   
+    //         // console.log(`${profile[key]}`);
+    //         console.log(`${key} = ${profile[key]}`);
+    //     }
+    // }
+
+    // {
+//     let array = [1 , 2 , 3 , 4 , 5 , 6]
+
+//     for(value of array){
+//         console.log(`${value * 2}`);
+//     }
+// }
+
+// Javascript String Method 
+
+// String.prototype.at()
+
+// at(index) [ + and - both allowed]
+
+{
+    // let str = "This is Javascript String Method!"
+
+    // console.log(str.at(-12));
+    // console.log(str.at(12));
+
+}
+
+// String.prototype.CharAt()
+
+// charAt(index) [only + number allowed]
+
+
+// {
+    // let str = "This is Javascript String Method!"
+//                012345678901234567890123456789012
+//                123456789012345678901234567890123
+
+        // console.log(str.charAt(1));
+// }
+
+// String.prototype.charCodeAt()
+
+// charCodeAt(index) [returns ascii value of index number]
+
+// https://www.toptal.com/designers/htmlarrows/letters/
+
+
+// {
+    // let str = "This is Javascript String Method!"
+//                012345678901234567890123456789012
+//                123456789012345678901234567890123
+
+        // console.log(str.charCodeAt(10));
+// }
+
+
+// String.prototype.concat()
+
+// concat(str1)
+// concat(str1, str2)
+// concat(str1, str2, /* …, */ strN)
+
+// {
+    // let x = "Hello"
+    // let y = "Javascript"
+
+    // console.log(y.concat("\t"+x));
+
+// }
+
+// String.prototype.includes()
+
+// includes(searchString) [answer is true or false]
+// includes(searchString, position)
+
+// {
+    // let str = "Dog is very cute and cat is lovable"
+
+    // console.log(str.includes('cute'));
+    // console.log(str.includes('cute' , 10));
+
+// }
+
+
+// String.prototype.indexOf()
+
+// indexOf(searchString)
+// indexOf(searchString, position)
+
+// {
+    // let str = "Dog is very cute and cat is lovable"
+
+    // console.log(str.indexOf("v" , 20));
+
+// }
+
+// String.prototype.lastIndexOf()
+
+// lastIndexOf(searchString)
+// lastIndexOf(searchString, position)
+
+
+// {
+//     let str = "Dog is very cute and cat is lovable"
+
+//     console.log(str.lastIndexOf("v" , 20)); 
+// }
+
+// String.prototype.padStart() /  padEnd() 
+
+// padStart(targetLength) [ oly string is allowed]
+// padStart(targetLength, padString)
+// padEnd(targetLength)
+// padEnd(targetLength, padString)
+
+// {
+    // let x = 'hello'
+
+    // console.log(x.padStart(20)); [space in start]
+    // console.log(x.padEnd(15 , 'h')); [add in last]
+
+//     // 03:12
+
+    // let x = '3'
+
+    // console.log(x.padStart(2 , '0'));
+
+//     console.log(x.repeat(10));
+// }
+
+
+// Slice and Substring
+
+// {
+    // let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+//                01234567890123456789012345
+//                12345678901234567890123456
+
+//     // slice(indexStart)
+//     // slice(indexStart, indexEnd)
+
+
+//     console.log(str.slice(0));
+//     console.log(str.substring(0));
+//     console.log(str.slice(10));
+//     console.log(str.substring(10));
+    // console.log(str.slice(-10)); [ last starts with 1]
+//     console.log(str.substring(-10)); [start with 0 - not alloud]
+    // console.log(str.slice(10 , 15));
+//     console.log(str.substring(10 , 15));
+//     console.log(str.slice(-10 , 10));
+//     console.log(str.substring(-10 , 15));
+    // console.log(str.slice(-10 , -8));
+    // console.log(str.substring(-10 , -1));
+    // console.log(str.slice(0 , 0));
+    // console.log(str.substring(0 , 0)); [empty]
+    
+// }
+
+// String.prototype.split()
+
+// syntax : 
+// slice(indexStart)
+// slice(indexStart, indexEnd)
+{
+    // let str = "i am srushti gangani"
+
+    // console.log(str.slice(5));
+    // console.log(str.slice(-4));
+    // console.log(str.slice(5 , 14)); [doesn't print index end char]
+    // console.log(str.slice(5 , -10)); [print srush]
+}
+
+// String.prototype.startsWith()
+
+// syntax:
+// startsWith(searchString)
+// startsWith(searchString, position)
+//  [gives output in boolean value (true or false)]
+
+{
+    // let str = "java script or java"
+
+    // console.log(str.startsWith('java'));
+    // console.log(str.startsWith('java' , 1));
+    
+}
+
+// String.prototype.toLowerCase()
+
+// syntax: 
+// toLowerCase()
+
+// {
+//     let str = "THE MAN AND WOMEN"
+
+//     console.log(str.toLowerCase());
+    
+// }
+
+// String.prototype.toString()
+
+// syntax:
+// toString()
+
+{
+    // let str = new String ("tooo many")
+    // console.log(str); [string('tooo many')]
+    // console.log(str.toString()); [tooo many]
+    
+}
+
+// String.prototype.toUpperCase()
+
+// syntax:
+// toUpperCase()
+
+// {
+//     let str = "the man and women"
+
+//     console.log(str.toUpperCase());
+    
+// }
+
+// String.prototype.trim()
+
+// syntax:
+// trim()  [remove spaces]
+
 
 
 
