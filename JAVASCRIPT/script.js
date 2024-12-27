@@ -440,7 +440,7 @@
     
 // }
 
-// String.prototype.split()
+// String.prototype.split() [ convert string to array]
 
 // syntax : 
 // slice(indexStart)
@@ -465,7 +465,7 @@
     // let str = "java script or java"
 
     // console.log(str.startsWith('java'));
-    // console.log(str.startsWith('java' , 1));
+    // console.log(str.startsWith('java' , 1)); [false]
     
 }
 
@@ -510,12 +510,32 @@
 // syntax:
 // trim()  [remove spaces]
 
+/* javascript string match and matchAll Method [output in array]*/ 
 
+// match(regexp)  [g-global i-ignore case]
+// matchAll(regex) [only gi and g allowed]
 
+// {
+//     let str= "Dog is sweet and Cat is very cute but dog and cats both are scary"
 
+//     let regex = /[Dog]/gi
 
+//     // let demo = str.match(regex)
+//     // let demo = [...str.matchAll(regex)]
 
+//     console.log(demo);
+    
+// }
 
+// replace(pattern, replacement)
 
+{
+    let str = "Dog is sweet and Cat is very cute but dog and cats both are scary this is dog his name is candy and this is cat her name is pummy . cat are blessed with beautiful scary eyes that kill all dogs  "
 
+    // let regex = /Dog/g
 
+    // console.log(str.replace(/Dog/gi,'fox'));
+    console.log(str.replace(/dog/gi,'fox'));
+    
+    
+}
