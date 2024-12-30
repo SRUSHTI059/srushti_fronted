@@ -46,7 +46,7 @@
 
 // {
 //     console.log(profile);
-    
+
 // }
 // console.log(profile);
 
@@ -60,10 +60,9 @@
 // y=20
 // z=30
 
-
 // console.log(x);
 // console.log(y);
-// console.log(z);    
+// console.log(z);
 // }
 
 // {
@@ -75,14 +74,13 @@
 // y=20
 // z=30
 
-
 //     console.log(x);
 //     console.log(y);
-//     console.log(z);    
+//     console.log(z);
 // }
 
 // {
-    // const variable not supported hoisting
+// const variable not supported hoisting
 // const x
 // const y
 // const z
@@ -91,10 +89,9 @@
 // y=20
 // z=30
 
-
 //     console.log(x);
 //     console.log(y);
-//     console.log(z);    
+//     console.log(z);
 // }
 
 // javascript templet literals
@@ -111,7 +108,7 @@
 //     let str4 = 'This is "Javascri☺☻♥♦♣♠•◘○pt"'
 //     let str5 = "This is `Javascript`"
 //     let str6 = `This is "Javascript"`
-    
+
 //     console.log(str4);
 //     console.log(str5);
 //     console.log(str6);
@@ -160,7 +157,6 @@
 // let math3 = (100 - 100 + 'Javascript' + 100 + 100 + 100) + 100 // 0javascript100100100100
 // console.log(math3);
 
-
 // operators in js
 
 // 1. Arithmetic
@@ -170,7 +166,7 @@
 // 5. Ternary
 // 6. typeOf
 // 7. instanceOf
-// 8. Bitwise 
+// 8. Bitwise
 // 9. ++ , -- [ unary operators ]
 
 // Arithmetic operators
@@ -185,7 +181,7 @@
 //     console.log(x / y);
 //     console.log(x % y);
 //     console.log(x ** y);
-    
+
 // }
 
 // Assignment operators
@@ -200,7 +196,7 @@
 //     console.log(x *= y); //10
 //     console.log(x %= y); //0
 //     console.log(x **= y); //0
-    
+
 // }
 
 // logical operators
@@ -217,7 +213,7 @@
 //     console.log(x || z);
 //     console.log(x || y || z);
 //     console.log(!(x || y) && !(x || z) && !(y && z)); // false
-    
+
 // }
 
 // comparison operators
@@ -234,7 +230,7 @@
 //     console.log(x < y);
 //     console.log(x >= y);
 //     console.log(x <= y);
-   
+
 // }
 
 // Ternary Operator [?]
@@ -245,7 +241,7 @@
 //     let Age=17
 
 //     Age>=18 ? console.log('you are eligible') : console.log('you are under 18');
-    
+
 // }
 
 // typeof operator
@@ -255,7 +251,7 @@
 //     console.log(typeof true);
 //     console.log(typeof 12);
 //     console.log(typeof []);
-    
+
 // }
 
 // Bitwise Operators [with boolean values]
@@ -269,24 +265,24 @@
 // }
 
 // Task:-   for(let key in Profile){
-    //     console.log(`For in ${Profile.key}`); 
-    // }
+//     console.log(`For in ${Profile.key}`);
+// }
 
-    // {
-    //     let profile = {
-    //         name: 'Rakesh',
-    //         age: 45,
-    //         email: `Rakesh@gmail.com`,
-    //         occupation: 'farmer'
-    // };
-    //     for(let key in profile){
-    //         // console.log(`${key}`);   
-    //         // console.log(`${profile[key]}`);
-    //         console.log(`${key} = ${profile[key]}`);
-    //     }
-    // }
+// {
+//     let profile = {
+//         name: 'Rakesh',
+//         age: 45,
+//         email: `Rakesh@gmail.com`,
+//         occupation: 'farmer'
+// };
+//     for(let key in profile){
+//         // console.log(`${key}`);
+//         // console.log(`${profile[key]}`);
+//         console.log(`${key} = ${profile[key]}`);
+//     }
+// }
 
-    // {
+// {
 //     let array = [1 , 2 , 3 , 4 , 5 , 6]
 
 //     for(value of array){
@@ -294,31 +290,28 @@
 //     }
 // }
 
-// Javascript String Method 
+// Javascript String Method
 
 // String.prototype.at()
 
 // at(index) [ + and - both allowed]
 
 {
-    // let str = "This is Javascript String Method!"
-
-    // console.log(str.at(-12));
-    // console.log(str.at(12));
-
+  // let str = "This is Javascript String Method!"
+  // console.log(str.at(-12));
+  // console.log(str.at(12));
 }
 
 // String.prototype.CharAt()
 
 // charAt(index) [only + number allowed]
 
-
 // {
-    // let str = "This is Javascript String Method!"
+// let str = "This is Javascript String Method!"
 //                012345678901234567890123456789012
 //                123456789012345678901234567890123
 
-        // console.log(str.charAt(1));
+// console.log(str.charAt(1));
 // }
 
 // String.prototype.charCodeAt()
@@ -327,15 +320,13 @@
 
 // https://www.toptal.com/designers/htmlarrows/letters/
 
-
 // {
-    // let str = "This is Javascript String Method!"
+// let str = "This is Javascript String Method!"
 //                012345678901234567890123456789012
 //                123456789012345678901234567890123
 
-        // console.log(str.charCodeAt(10));
+// console.log(str.charCodeAt(10));
 // }
-
 
 // String.prototype.concat()
 
@@ -344,10 +335,10 @@
 // concat(str1, str2, /* …, */ strN)
 
 // {
-    // let x = "Hello"
-    // let y = "Javascript"
+// let x = "Hello"
+// let y = "Javascript"
 
-    // console.log(y.concat("\t"+x));
+// console.log(y.concat("\t"+x));
 
 // }
 
@@ -357,13 +348,12 @@
 // includes(searchString, position)
 
 // {
-    // let str = "Dog is very cute and cat is lovable"
+// let str = "Dog is very cute and cat is lovable"
 
-    // console.log(str.includes('cute'));
-    // console.log(str.includes('cute' , 10));
+// console.log(str.includes('cute'));
+// console.log(str.includes('cute' , 10));
 
 // }
-
 
 // String.prototype.indexOf()
 
@@ -371,9 +361,9 @@
 // indexOf(searchString, position)
 
 // {
-    // let str = "Dog is very cute and cat is lovable"
+// let str = "Dog is very cute and cat is lovable"
 
-    // console.log(str.indexOf("v" , 20));
+// console.log(str.indexOf("v" , 20));
 
 // }
 
@@ -382,14 +372,13 @@
 // lastIndexOf(searchString)
 // lastIndexOf(searchString, position)
 
-
 // {
 //     let str = "Dog is very cute and cat is lovable"
 
-//     console.log(str.lastIndexOf("v" , 20)); 
+//     console.log(str.lastIndexOf("v" , 20));
 // }
 
-// String.prototype.padStart() /  padEnd() 
+// String.prototype.padStart() /  padEnd()
 
 // padStart(targetLength) [ oly string is allowed]
 // padStart(targetLength, padString)
@@ -397,61 +386,58 @@
 // padEnd(targetLength, padString)
 
 // {
-    // let x = 'hello'
+// let x = 'hello'
 
-    // console.log(x.padStart(20)); [space in start]
-    // console.log(x.padEnd(15 , 'h')); [add in last]
+// console.log(x.padStart(20)); [space in start]
+// console.log(x.padEnd(15 , 'h')); [add in last]
 
 //     // 03:12
 
-    // let x = '3'
+// let x = '3'
 
-    // console.log(x.padStart(2 , '0'));
+// console.log(x.padStart(2 , '0'));
 
 //     console.log(x.repeat(10));
 // }
 
-
 // Slice and Substring
 
 // {
-    // let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+// let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 //                01234567890123456789012345
 //                12345678901234567890123456
 
 //     // slice(indexStart)
 //     // slice(indexStart, indexEnd)
 
-
 //     console.log(str.slice(0));
 //     console.log(str.substring(0));
 //     console.log(str.slice(10));
 //     console.log(str.substring(10));
-    // console.log(str.slice(-10)); [ last starts with 1]
+// console.log(str.slice(-10)); [ last starts with 1]
 //     console.log(str.substring(-10)); [start with 0 - not alloud]
-    // console.log(str.slice(10 , 15));
+// console.log(str.slice(10 , 15));
 //     console.log(str.substring(10 , 15));
 //     console.log(str.slice(-10 , 10));
 //     console.log(str.substring(-10 , 15));
-    // console.log(str.slice(-10 , -8));
-    // console.log(str.substring(-10 , -1));
-    // console.log(str.slice(0 , 0));
-    // console.log(str.substring(0 , 0)); [empty]
-    
+// console.log(str.slice(-10 , -8));
+// console.log(str.substring(-10 , -1));
+// console.log(str.slice(0 , 0));
+// console.log(str.substring(0 , 0)); [empty]
+
 // }
 
 // String.prototype.split() [ convert string to array]
 
-// syntax : 
+// syntax :
 // slice(indexStart)
 // slice(indexStart, indexEnd)
 {
-    // let str = "i am srushti gangani"
-
-    // console.log(str.slice(5));
-    // console.log(str.slice(-4));
-    // console.log(str.slice(5 , 14)); [doesn't print index end char]
-    // console.log(str.slice(5 , -10)); [print srush]
+  // let str = "i am srushti gangani"
+  // console.log(str.slice(5));
+  // console.log(str.slice(-4));
+  // console.log(str.slice(5 , 14)); [doesn't print index end char]
+  // console.log(str.slice(5 , -10)); [print srush]
 }
 
 // String.prototype.startsWith()
@@ -462,23 +448,21 @@
 //  [gives output in boolean value (true or false)]
 
 {
-    // let str = "java script or java"
-
-    // console.log(str.startsWith('java'));
-    // console.log(str.startsWith('java' , 1)); [false]
-    
+  // let str = "java script or java"
+  // console.log(str.startsWith('java'));
+  // console.log(str.startsWith('java' , 1)); [false]
 }
 
 // String.prototype.toLowerCase()
 
-// syntax: 
+// syntax:
 // toLowerCase()
 
 // {
 //     let str = "THE MAN AND WOMEN"
 
 //     console.log(str.toLowerCase());
-    
+
 // }
 
 // String.prototype.toString()
@@ -487,10 +471,9 @@
 // toString()
 
 {
-    // let str = new String ("tooo many")
-    // console.log(str); [string('tooo many')]
-    // console.log(str.toString()); [tooo many]
-    
+  // let str = new String ("tooo many")
+  // console.log(str); [string('tooo many')]
+  // console.log(str.toString()); [tooo many]
 }
 
 // String.prototype.toUpperCase()
@@ -502,7 +485,7 @@
 //     let str = "the man and women"
 
 //     console.log(str.toUpperCase());
-    
+
 // }
 
 // String.prototype.trim()
@@ -510,7 +493,7 @@
 // syntax:
 // trim()  [remove spaces]
 
-/* javascript string match and matchAll Method [output in array]*/ 
+/* javascript string match and matchAll Method [output in array]*/
 
 // match(regexp)  [g-global i-ignore case]
 // matchAll(regex) [only gi and g allowed]
@@ -524,115 +507,44 @@
 //     // let demo = [...str.matchAll(regex)]
 
 //     console.log(demo);
-    
+
 // }
 
 // replace(pattern, replacement)
 
 {
-    let str = "Dog is sweet and Cat is very cute but dog and cats both are scary this is dog his name is candy and this is cat her name is pummy . cat are blessed with beautiful scary eyes that kill all dogs  "
+  let str =
+    "Dog is sweet and Cat is very cute but dog and cats both are scary this is dog his name is candy and this is cat her name is pummy . cat are blessed with beautiful scary eyes that kill all dogs  ";
 
-    // let regex = /Dog/g
+  // let regex = /Dog/g
 
-    // console.log(str.replace(/Dog/gi,'fox'));
-    console.log(str.replace(/dog/gi,'fox'));
-      
+  // console.log(str.replace(/Dog/gi,'fox'));
+  // console.log(str.replace(/dog/gi,'fox'));
 }
 
 // object
 
 {
-    let object = {
-         name:'SkillQode'
-    }
+  let object = {
+    name: "SkillQode",
+  };
 
-    let obj1 = object.name = "Loops"
-    let obj2 = object.skill = "reactJS"
+  let obj = (object.name = "srushti");
 
-    console.log(object.name);
-    console.log(object.skill);
+  console.log(object.name);
 
-    console.log(object);
+  console.log(object);
 
-    console.log(obj1);
-    
-}
-// practice program::::::-----
-
-// program - 1 :-------
-
-{
-    let num = 1;
-    if (num > 0) {
-        console.log("**Number is positive**");
-    }
-    else if (num < 0) {
-        console.log("**Number is negative**");
-
-    }
-    else {
-        console.log("**Number is Zero**");
-    }
+  console.log(obj);
 }
 
+// map
 
-// program - 2 :-------
 {
-    let age = 18;
-    if (age >= 18) {
-        console.log("**You are eligible for Vote**");
-    }
-    else {
-        console.log("**You are not eligible for Vote**");
-    }
-}
-
-
-// program - 3 :--------
-{
-    let a = 10;
-    let b = 20;
-    let c = 30;
-
-    if (a > b && a > c) {
-        console.log("**A is larger than B & C**");
-    }
-    else if (b > a && b > c) {
-        console.log("**B is larger than A & C**");
-    }
-    else {
-        console.log("**C is larger than B & A**");
-    }
-}
-
-
-// program - 4 :-------
-{
-    let year = 2008;
-    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
-        console.log("**year is a leap year**");
-
-    } else {
-        console.log("**year is a not leap year**");
-    }
-}
-
-
-// program - 5 :-------
-{
-    let totalgrades=400;
-    let percentage = (totalgrades / 400) * 100;
-    if (percentage <= 100 && percentage >= 80) {
-         console.log("**Grade A**");
-
-    } else if (percentage <= 79 && percentage >= 60) {
-        console.log("**Grade B**");
- 
-    } else if (percentage <= 59 && percentage >= 40) {
-        console.log("**Grade C**");
+  let demo = new Map()  
   
-    } else {
-        console.log("**Grade D**");
+  demo.set('language' , 'javascript')
+
+  console.log(demo);
   
-    }
 }
