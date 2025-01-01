@@ -525,17 +525,17 @@
 // object
 
 {
-  let object = {
-    name: "SkillQode",
-  };
+  // let object = {
+  //   name: "SkillQode",
+  // };
 
-  let obj = (object.name = "srushti");
+  // let obj = (object.name = "srushti");
 
-  console.log(object.name);
+  // console.log(object.name);
 
-  console.log(object);
+  // console.log(object);
 
-  console.log(obj);
+  // console.log(obj);
 }
 
 // map
@@ -549,12 +549,16 @@
 
   // multile values in map using multidimention array
 
-  let mapobj = new map([['language' , 'javascript'] , ['name' , 'srushti']]).foreach(show)
+  // let mapobj = new Map([['language' , 'javascript'] , ['name' , 'srushti']]).forEach(show)
 
-  function show(value1 , value2 , mapobj){
-    console.log(`${value1} = ${value2}`);
-  }
-  console.log(mapobj);
-  
-  
+  // function show(value1 , value2 , mapobj){
+  //   console.log(`${value1} = ${value2}`);
+  // }
+  // console.log(mapobj);
+
+    // let map = [[1 , 2 , 3] ,[4 , 5 , 6 ], [7 , 8 ]]
+
+    // console.log(map);
+
+    
 }
