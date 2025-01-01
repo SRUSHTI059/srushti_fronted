@@ -541,10 +541,20 @@
 // map
 
 {
-  let demo = new Map()  
+//   let demo = new Map()  
   
-  demo.set('language' , 'javascript')
+//   demo.set('language' , 'javascript')
 
-  console.log(demo);
+//   console.log(demo);
+
+  // multile values in map using multidimention array
+
+  let mapobj = new map([['language' , 'javascript'] , ['name' , 'srushti']]).foreach(show)
+
+  function show(value1 , value2 , mapobj){
+    console.log(`${value1} = ${value2}`);
+  }
+  console.log(mapobj);
+  
   
 }
