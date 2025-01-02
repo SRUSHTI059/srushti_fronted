@@ -562,3 +562,143 @@
 
     
 }
+
+
+// math functions
+
+// Math.pi
+
+// {
+//   console.log(Math.PI);
+//   console.log(`${22/7}`);
+// }
+
+//Math.abs
+
+// {
+//   let a=-20
+//   console.log(Math.abs(a)); 
+// }
+
+//Math.ceil
+
+{
+  let a=30.25
+
+  console.log(Math.ceil(a));
+  
+}
+
+//Math.floor
+
+{
+  let a=30.25
+
+  console.log(Math.floor(a));
+  
+}
+
+//Math.cos
+
+{
+  console.log(Math.cos(`${90*3.14/180}`));
+  
+}
+
+//Math.sin
+
+// Math.sqrt
+
+{
+  console.log(Math.sqrt(64));
+  console.log(Math.sqrt(25));
+  
+}
+
+// Math.random
+
+{
+  console.log(Math.random());
+  
+}
+
+// Math.round 
+
+{
+  console.log(Math.round(14.40));
+  console.log(Math.round(15.60));
+  
+}
+
+// Math.min
+// Math.max
+
+{
+  let arr=[10,20,500,1000,300];
+
+  console.log(Math.min(...arr));
+  console.log(Math.min(10,0.5,30));
+  
+  console.log(Math.max(...arr));
+  
+}
+
+// Math.log10  
+
+{
+  let x=2
+  let y=8
+  console.log(Math.log10(4));
+  
+}
+
+//Math.pow
+
+{
+  console.log(Math.pow(2,3));
+  
+}
+
+// Math.trunc  [print value removing point]
+
+{
+  console.log(Math.trunc(3.40));
+  console.log(Math.trunc(3.60));
+  
+}
+
+// date-time function
+
+{
+ 
+    let date = new Date()
+    let demo = date.getDate()
+    let demo1 = date.getDay()
+    let demo2 = date.getFullYear()
+    let demo3 = date.getHours()
+    let demo4 = date.getMinutes()
+    let demo5 = date.getMonth()  // start with 0-11
+    let demo6 = date.getMilliseconds()
+    let demo7 = date.getSeconds()
+    let demo8 = date.getTime()
+  
+   
+    console.log(date);
+    console.log(demo);
+    console.log(demo1);
+    console.log(demo2);
+    console.log(demo3);
+    console.log(demo4);
+    console.log(demo5);
+    console.log(demo6);
+    console.log(demo7);
+    console.log(demo8);
+    
+    
+    
+    
+  
+}
+
+
+
