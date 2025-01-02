@@ -669,36 +669,136 @@
 
 // date-time function
 
-{
+// {
  
-    let date = new Date()
-    let demo = date.getDate()
-    let demo1 = date.getDay()
-    let demo2 = date.getFullYear()
-    let demo3 = date.getHours()
-    let demo4 = date.getMinutes()
-    let demo5 = date.getMonth()  // start with 0-11
-    let demo6 = date.getMilliseconds()
-    let demo7 = date.getSeconds()
-    let demo8 = date.getTime()
+//   let today = Date.parse('01 Jan 2025 21:00:00')
+//     let date = new Date()
+//     let demo = date.getDate()
+//     let demo1 = date.getDay()
+//     let demo2 = date.getFullYear()
+//     let demo3 = date.getHours()
+//     let demo4 = date.getMinutes()
+//     let demo5 = date.getMonth()  // start with 0-11
+//     let demo6 = date.getMilliseconds()
+//     let demo7 = date.getSeconds()
+//     let demo8 = date.getTime()
+//     let demo9 = date.getTimezoneOffset()
   
-   
-    console.log(date);
-    console.log(demo);
-    console.log(demo1);
-    console.log(demo2);
-    console.log(demo3);
-    console.log(demo4);
-    console.log(demo5);
-    console.log(demo6);
-    console.log(demo7);
-    console.log(demo8);
+//     console.log(today); 
     
-    
-    
-    
+//     console.log(date);
+//     console.log(demo);
+//     console.log(demo1);
+//     console.log(demo2);
+//     console.log(demo3);
+//     console.log(demo4);
+//     console.log(demo5);
+//     console.log(demo6);
+//     console.log(demo7);
+//     console.log(demo8);
+//     console.log(demo9);
+
+//     let demoo = new Date()
+//     demoo.setDate(10)
+//     demoo.setFullYear(2026)
+//     demoo.setHours(23)
+//     demoo.setMinutes(59)
+//     demoo.setSeconds(61)
+//     demoo.setTime()
+//     console.log(demoo);
   
+// }
+
+
+// number methods
+
+// Number values represent floating-point numbers like 37 or -9.25.
+
+// The Number constructor contains constants and methods for working with numbers. Values of other types can be converted to numbers using the Number() function.
+
+// new Number(value)
+// Number(value)
+
+
+{
+    let x = "10"
+
+    let y = Number(x)
+
+    console.log(y);
+
+    console.log(typeof x);
+    console.log(typeof y);
 }
 
+{
+    console.log(Number.isFinite(0/-1));
+    console.log(Number.isFinite(1/0));
+    console.log(Number.isFinite(0/1));
+    console.log(Number.isFinite(Infinity/1));
+    console.log(Number.isFinite(1/-1));
+}
 
+{
+    console.log(Number.isInteger(10));
+    console.log(Number.isInteger(10.10)); 
+    console.log(Number.isInteger(Number(true)));
+    console.log(Number.isInteger(false));
+}
 
+{
+  console.log(Number.isNaN());
+  console.log(Number.isNaN(NaN));
+  console.log(Number.isNaN(0));
+}
+
+{
+  console.log(Number.isSafeInteger(1/1));
+  console.log(Number.isSafeInteger(12/2));
+  // limit 0-20
+}
+
+{
+  console.log(Number.parseFloat(10.20));
+  console.log(Number.parseFloat(20.00));
+  console.log(Number.parseInt(50.30));
+  console.log(Number.parseInt(100));
+}
+
+// Number.prototype.toExponential()
+
+{
+      let number = 450000
+  
+      let expontial1 = number.toExponential()
+      let expontial2 = number.toExponential(3)
+      let expontial3 = number.toExponential(20)
+  
+      console.log(expontial1);
+      console.log(expontial2);
+      console.log(expontial3);
+  }
+
+  {
+    let number = 40.42563214
+
+    let fixed = number.toFixed(0)
+    let fixed1 = number.toFixed(1)
+    let fixed2 = number.toFixed(2)
+
+    console.log(fixed);
+    console.log(fixed1);
+    console.log(fixed2);
+}
+
+{
+    let number = 40.4521863251
+    
+    let precision = number.toPrecision(1)
+    let precision1 = number.toPrecision(3)
+    let precision2 = number.toPrecision(50)
+
+    console.log(precision);
+    console.log(precision1);
+    console.log(precision2);
+}
