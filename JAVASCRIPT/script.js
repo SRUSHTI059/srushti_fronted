@@ -792,13 +792,42 @@
 }
 
 {
-    let number = 40.4521863251
+    let number = 4.4521863251
     
     let precision = number.toPrecision(1)
     let precision1 = number.toPrecision(3)
     let precision2 = number.toPrecision(50)
+    let precision3 = number.toPrecision(2)
 
     console.log(precision);
     console.log(precision1);
     console.log(precision2);
+    console.log(precision3);
 }
+
+{
+    let number = 10.10
+    let string = number.toString()
+    let value = number.valueOf()
+    console.log(number);
+    console.log(string);
+    console.log(value);
+}
+
+// function in javascript
+
+function demo(){
+  console.log(`hello world!!!!`);
+}
+
+demo()
+
+// using return keyword
+
+function demoo() {
+ 
+}
+
+demoo()
+
+
