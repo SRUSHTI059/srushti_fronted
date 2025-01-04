@@ -720,114 +720,127 @@
 // Number(value)
 
 
-{
-    let x = "10"
+// {
+//     let x = "10"
 
-    let y = Number(x)
+//     let y = Number(x)
 
-    console.log(y);
+//     console.log(y);
 
-    console.log(typeof x);
-    console.log(typeof y);
-}
+//     console.log(typeof x);
+//     console.log(typeof y);
+// }
 
-{
-    console.log(Number.isFinite(0/-1));
-    console.log(Number.isFinite(1/0));
-    console.log(Number.isFinite(0/1));
-    console.log(Number.isFinite(Infinity/1));
-    console.log(Number.isFinite(1/-1));
-}
+// {
+//     console.log(Number.isFinite(0/-1));
+//     console.log(Number.isFinite(1/0));
+//     console.log(Number.isFinite(0/1));
+//     console.log(Number.isFinite(Infinity/1));
+//     console.log(Number.isFinite(1/-1));
+// }
 
-{
-    console.log(Number.isInteger(10));
-    console.log(Number.isInteger(10.10)); 
-    console.log(Number.isInteger(Number(true)));
-    console.log(Number.isInteger(false));
-}
+// {
+//     console.log(Number.isInteger(10));
+//     console.log(Number.isInteger(10.10)); 
+//     console.log(Number.isInteger(Number(true)));
+//     console.log(Number.isInteger(false));
+// }
 
-{
-  console.log(Number.isNaN());
-  console.log(Number.isNaN(NaN));
-  console.log(Number.isNaN(0));
-}
+// {
+//   console.log(Number.isNaN());
+//   console.log(Number.isNaN(NaN));
+//   console.log(Number.isNaN(0));
+// }
 
-{
-  console.log(Number.isSafeInteger(1/1));
-  console.log(Number.isSafeInteger(12/2));
-  // limit 0-20
-}
-
-{
-  console.log(Number.parseFloat(10.20));
-  console.log(Number.parseFloat(20.00));
-  console.log(Number.parseInt(50.30));
-  console.log(Number.parseInt(100));
-}
-
-// Number.prototype.toExponential()
-
-{
-      let number = 450000
+// {
+//   console.log(Number.isSafeInteger(1/1));
+//   console.log(Number.isSafeInteger(12/2));
+//   console.log(Number.isSafeInteger(5.40/1.5));
   
-      let expontial1 = number.toExponential()
-      let expontial2 = number.toExponential(3)
-      let expontial3 = number.toExponential(20)
+//   // limit 0-20
+// }
+
+// {
+//   console.log(Number.parseFloat(10.20));
+//   console.log(Number.parseFloat(20.10));
+//   console.log(Number.parseInt(50.30));
+//   console.log(Number.parseInt(100));
+// }
+
+// Number.prototype.toExponential()  giv value in e notation
+
+// {
+//       let number = 450000
   
-      console.log(expontial1);
-      console.log(expontial2);
-      console.log(expontial3);
-  }
+//       let expontial1 = number.toExponential()
+//       let expontial2 = number.toExponential(3)
+//       let expontial3 = number.toExponential(10)
+  
+//       console.log(expontial1);
+//       console.log(expontial2);
+//       console.log(expontial3);
+//   }
 
-  {
-    let number = 40.42563214
+  
+//   {
+//     let number = 40.42563214
 
-    let fixed = number.toFixed(0)
-    let fixed1 = number.toFixed(1)
-    let fixed2 = number.toFixed(2)
+//     let fixed = number.toFixed(0)
+//     let fixed1 = number.toFixed(1)
+//     let fixed2 = number.toFixed(2)
 
-    console.log(fixed);
-    console.log(fixed1);
-    console.log(fixed2);
-}
+//     console.log(fixed);
+//     console.log(fixed1);
+//     console.log(fixed2);
+// }
 
-{
-    let number = 4.4521863251
+// {
+//     let number = 4.4521863251
     
-    let precision = number.toPrecision(1)
-    let precision1 = number.toPrecision(3)
-    let precision2 = number.toPrecision(50)
-    let precision3 = number.toPrecision(2)
+//     let precision = number.toPrecision(1)
+//     let precision1 = number.toPrecision(3)
+//     let precision2 = number.toPrecision(50)
+//     let precision3 = number.toPrecision(2)
 
-    console.log(precision);
-    console.log(precision1);
-    console.log(precision2);
-    console.log(precision3);
-}
+//     console.log(precision);
+//     console.log(precision1);
+//     console.log(precision2);
+//     console.log(precision3);
+// }
 
-{
-    let number = 10.10
-    let string = number.toString()
-    let value = number.valueOf()
-    console.log(number);
-    console.log(string);
-    console.log(value);
-}
+// {
+//     let number = 10.10
+//     let string = number.toString()
+//     let value = number.valueOf()
+//     console.log(number);
+//     console.log(string);
+//     console.log(value);
+// }
 
 // function in javascript
 
-function demo(){
-  console.log(`hello world!!!!`);
-}
+// function demo(){
+//   console.log(`hello world!!!!`);
+// }
 
-demo()
+// demo()
 
 // using return keyword
 
-function demoo() {
- 
-}
+// function demo() {
+//     return console.log("helloo srushti!!!!!!!");
+// }
 
-demoo()
+// demo()
+
+
+// Array in javascript
+
+{
+  let arr = [1 , 2 , 3 , 4]
+  log
+  console.log(arr);
+  
+}
 
 
