@@ -646,24 +646,24 @@
 // Math.log10  
 
 {
-  let x=2
-  let y=8
-  console.log(Math.log10(4));
+  // let x=2
+  // let y=8
+  // console.log(Math.log10(4));
   
 }
 
 //Math.pow
 
 {
-  console.log(Math.pow(2,3));
+  // console.log(Math.pow(2,3));
   
 }
 
 // Math.trunc  [print value removing point]
 
 {
-  console.log(Math.trunc(3.40));
-  console.log(Math.trunc(3.60));
+  // console.log(Math.trunc(3.40));
+  // console.log(Math.trunc(3.60));
   
 }
 
@@ -683,8 +683,11 @@
 //     let demo7 = date.getSeconds()
 //     let demo8 = date.getTime()
 //     let demo9 = date.getTimezoneOffset()
+        // let date= Date.now()
   
 //     console.log(today); 
+        // console.log(date);
+        
     
 //     console.log(date);
 //     console.log(demo);
@@ -720,114 +723,139 @@
 // Number(value)
 
 
+// {
+//     let x = "10"
+
+//     let y = Number(x)
+
+//     console.log(y);
+
+//     console.log(typeof x);
+//     console.log(typeof y);
+// }
+
+// {
+//     console.log(Number.isFinite(0/-1));
+//     console.log(Number.isFinite(1/0));
+//     console.log(Number.isFinite(0/1));
+//     console.log(Number.isFinite(Infinity/1));
+//     console.log(Number.isFinite(1/-1));
+// }
+
+// {
+//     console.log(Number.isInteger(10));
+//     console.log(Number.isInteger(10.10)); 
+//     console.log(Number.isInteger(Number(true)));
+//     console.log(Number.isInteger(false));
+// }
+
+// {
+//   console.log(Number.isNaN());
+//   console.log(Number.isNaN(NaN));
+//   console.log(Number.isNaN(0));
+// }
+
 {
-    let x = "10"
-
-    let y = Number(x)
-
-    console.log(y);
-
-    console.log(typeof x);
-    console.log(typeof y);
-}
-
-{
-    console.log(Number.isFinite(0/-1));
-    console.log(Number.isFinite(1/0));
-    console.log(Number.isFinite(0/1));
-    console.log(Number.isFinite(Infinity/1));
-    console.log(Number.isFinite(1/-1));
-}
-
-{
-    console.log(Number.isInteger(10));
-    console.log(Number.isInteger(10.10)); 
-    console.log(Number.isInteger(Number(true)));
-    console.log(Number.isInteger(false));
-}
-
-{
-  console.log(Number.isNaN());
-  console.log(Number.isNaN(NaN));
-  console.log(Number.isNaN(0));
-}
-
-{
-  console.log(Number.isSafeInteger(1/1));
-  console.log(Number.isSafeInteger(12/2));
+  // console.log(Number.isSafeInteger(1/1));
+  // console.log(Number.isSafeInteger(12/2));
   // limit 0-20
 }
 
-{
-  console.log(Number.parseFloat(10.20));
-  console.log(Number.parseFloat(20.00));
-  console.log(Number.parseInt(50.30));
-  console.log(Number.parseInt(100));
-}
+// {
+//   console.log(Number.parseFloat(10.20));
+//   console.log(Number.parseFloat(20.00));
+//   console.log(Number.parseInt(50.30));
+//   console.log(Number.parseInt(100));
+// }
 
 // Number.prototype.toExponential()
 
-{
-      let number = 450000
+// {
+//       let number = 450000
   
-      let expontial1 = number.toExponential()
-      let expontial2 = number.toExponential(3)
-      let expontial3 = number.toExponential(20)
+//       let expontial1 = number.toExponential()
+//       let expontial2 = number.toExponential(3)
+//       let expontial3 = number.toExponential(20)
   
-      console.log(expontial1);
-      console.log(expontial2);
-      console.log(expontial3);
-  }
+//       console.log(expontial1);
+//       console.log(expontial2);
+//       console.log(expontial3);
+//   }
 
-  {
-    let number = 40.42563214
+//   {
+//     let number = 40.42563214
 
-    let fixed = number.toFixed(0)
-    let fixed1 = number.toFixed(1)
-    let fixed2 = number.toFixed(2)
+//     let fixed = number.toFixed(0)
+//     let fixed1 = number.toFixed(1)
+//     let fixed2 = number.toFixed(2)
 
-    console.log(fixed);
-    console.log(fixed1);
-    console.log(fixed2);
-}
+//     console.log(fixed);
+//     console.log(fixed1);
+//     console.log(fixed2);
+// }
 
-{
-    let number = 4.4521863251
+// {
+//     let number = 4.4521863251
     
-    let precision = number.toPrecision(1)
-    let precision1 = number.toPrecision(3)
-    let precision2 = number.toPrecision(50)
-    let precision3 = number.toPrecision(2)
+//     let precision = number.toPrecision(1)
+//     let precision1 = number.toPrecision(3)
+//     let precision2 = number.toPrecision(50)
+//     let precision3 = number.toPrecision(2)
 
-    console.log(precision);
-    console.log(precision1);
-    console.log(precision2);
-    console.log(precision3);
-}
+//     console.log(precision);
+//     console.log(precision1);
+//     console.log(precision2);
+//     console.log(precision3);
+// }
 
-{
-    let number = 10.10
-    let string = number.toString()
-    let value = number.valueOf()
-    console.log(number);
-    console.log(string);
-    console.log(value);
-}
+// {
+//     let number = 10.10
+//     let string = number.toString()
+//     let value = number.valueOf()
+//     console.log(number);
+//     console.log(string);
+//     console.log(value);
+// }
 
 // function in javascript
 
-function demo(){
-  console.log(`hello world!!!!`);
-}
+// function demo(){
+//   console.log(`hello world!!!!`);
+// }
 
-demo()
+// demo()
 
 // using return keyword
 
 function demoo() {
- 
+    return console.log("heloo javascript!!!!!!!!!!!!!!!!!!!!!!");
 }
 
 demoo()
+
+//callback function
+
+function demo(callback){
+  console.log("hiiiiiiiiiiiiiiiiiiiiii");
+  callback()
+  
+}
+
+function demo1(){
+  console.log("helloooooooooooooooooooo");
+}
+
+demo(demo1)
+
+// function with arguments
+
+function sum(a,b){
+  return a+b
+}
+
+// sum(3,5)
+console.log(`sum is : ${sum(3,5)}`);
+
+// array in js
 
 
