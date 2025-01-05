@@ -582,26 +582,26 @@
 
 //Math.ceil
 
-{
-  let a=30.25
+// {
+//   let a=30.25
 
-  console.log(Math.ceil(a));
+//   console.log(Math.ceil(a));
   
-}
+// }
 
 //Math.floor
 
 {
-  let a=30.25
+  // let a=30.25
 
-  console.log(Math.floor(a));
+  // console.log(Math.floor(a));
   
 }
 
 //Math.cos
 
 {
-  console.log(Math.cos(`${90*3.14/180}`));
+  // console.log(Math.cos(`${90*3.14/180}`));
   
 }
 
@@ -610,23 +610,23 @@
 // Math.sqrt
 
 {
-  console.log(Math.sqrt(64));
-  console.log(Math.sqrt(25));
+  // console.log(Math.sqrt(64));
+  // console.log(Math.sqrt(25));
   
 }
 
 // Math.random
 
 {
-  console.log(Math.random());
+  // console.log(Math.random());
   
 }
 
 // Math.round 
 
 {
-  console.log(Math.round(14.40));
-  console.log(Math.round(15.60));
+  // console.log(Math.round(14.40));
+  // console.log(Math.round(15.60));
   
 }
 
@@ -634,12 +634,12 @@
 // Math.max
 
 {
-  let arr=[10,20,500,1000,300];
+  // let arr=[10,20,500,1000,300];
 
-  console.log(Math.min(...arr));
-  console.log(Math.min(10,0.5,30));
+  // console.log(Math.min(...arr));
+  // console.log(Math.min(10,0.5,30));
   
-  console.log(Math.max(...arr));
+  // console.log(Math.max(...arr));
   
 }
 
