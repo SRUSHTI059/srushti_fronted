@@ -915,11 +915,76 @@
   
   {
     let arr = [1 , 2 , 3 , 4]
+    arr.push(5,6)
+    arr.push('items')
     console.log(arr.length);
+    arr.length=3
+    arr[2]= 'item3'
+    console.log(typeof arr);
     
     console.log(arr);
     
   }
+
+// Array.from()
+
+// Array.from(arrayLike)
+// Array.from(arrayLike, mapFn)
+// Array.from(arrayLike, mapFn, thisArg)
+
+{
+  let array = [1,2,3,4,5]
+
+   console.log(Array.from(array));
+   console.log(Array.from(array ,(item) => item + item));
+
+   let arr = [...array , 6]
+   console.log(arr);
+   arr.push(7,8,9,10)
+   console.log(arr);
+}
+
+// Array.of()
+
+// Array.of()
+// Array.of(element1)
+// Array.of(element1, element2)
+// Array.of(element1, element2, /* …, */ elementN)
+
+{
+  let arr = Array.of(1,2,3,4)
+  console.log(arr);
+  
+}
+
+// pop method
+// pop()
+
+{
+  // let arr = [1,2,3,4,5,6]
+  
+  // let array= arr.pop();
+  
+  // console.log(arr);
+  
+  // find(callbackFn)
+  // find(callbackFn, thisArg)
+  
+    // let arr = [1,2,3,4,5,6]
+    // let findarr = arr.find((element) => element > 2)
+
+    // console.log(findarr);
+
+// findIndex(callbackFn)
+// findIndex(callbackFn, thisArg)
+
+    let arr = [1,2,3,4,5]
+
+    let fi = (item) => item<3
+}
+
+
+
   
   
   
