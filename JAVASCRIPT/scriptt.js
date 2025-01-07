@@ -920,6 +920,28 @@ console.log(`sum is : ${sum(3, 5)}`);
   // console.log(arr);
 }
 
+// at(index)
+
+// {
+//   let array = [1,2,3,4]
+
+//   console.log(array.at(2));
+// }
+
+// concat()
+// concat(value1)
+// concat(value1, value2)
+// concat(value1, value2, /* …, */ valueN)
+
+// {
+//   let arr1 = [1,2]
+//   let arr2 = [3,4]
+
+//   console.log(arr1.concat(arr2,arr2));
+  
+// }
+
+
 // pop method
 // pop()
 
@@ -1013,12 +1035,54 @@ console.log(`sum is : ${sum(3, 5)}`);
 
 }
 
-{
+// Array.prototype.copyWithin()
 
-    for(let i=0 ; i<10 ; i++){
-      li=4*i
-      fi=li
-      
-      console.log(`${fi} ${li}`);
-    }
+// copyWithin(target, start)
+// copyWithin(target, start, end)
+
+{
+  // let arr = [1,2,3,4,5,6,7,8,9]
+
+  // console.log(arr.copyWithin());
+  // console.log(arr.copyWithin(3));
+  // console.log(arr.copyWithin(6));
+  // console.log(arr.copyWithin(3,5));
+  // console.log(arr.copyWithin(3,6,8));  //123786789
+  
 }
+
+// splice(start)
+// splice(start, deleteCount)
+// splice(start, deleteCount, item1)
+// splice(start, deleteCount, item1, item2)
+// splice(start, deleteCount, item1, item2, /* …, */ itemN)
+
+{
+  // let arr = [1,2,3,4,5,6,7,8,9]
+
+  // console.log(arr.splice(3));
+  // console.log(arr.splice(3,2));
+  // console.log(arr.splice(3 , 2 , 'may'));
+  // console.log(arr);
+  
+}
+
+// entries()
+
+// {
+//   let arr = [1,2,3,4,5,6,7,8,9]
+
+//   i1 = arr.entries();
+
+//   console.log(i1.next().value);
+//   console.log(i1.next().value);
+  
+// }
+
+// {
+//     for(let i=0 ; i<10 ; i++){
+//       li=4*i
+      
+//       console.log(`${li} , ${4*(i+1)}`);
+//     }
+// }
