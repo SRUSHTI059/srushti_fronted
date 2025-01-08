@@ -1045,102 +1045,186 @@
 //     }
 // }
 
-{
-  let product = [
-    {
-      price: "9.60",
-      stock: 58,
-    },
-    {
-      price: "20.60",
-      stock: 50,
-    },
-    {
-      price: "19.60",
-      stock: 80,
-    },
-    {
-      price: "50.60",
-      stock: 85,
-    },
-    {
-      price: "10.50",
-      stock: 30,
-    },
-    {
-      price: "15.70",
-      stock: 40,
-    },
-    {
-      price: "19.30",
-      stock: 70,
-    },
-    {
-      price: "22.35",
-      stock: 45,
-    },
-    {
-      price: "35.30",
-      stock: 60,
-    },
-    {
-      price: "90.30",
-      stock: 90,
-    },
-  ];
+// {
+//   let product = [
+//     {
+//       price: "9.60",
+//       stock: 58,
+//     },
+//     {
+//       price: "20.60",
+//       stock: 50,
+//     },
+//     {
+//       price: "19.60",
+//       stock: 80,
+//     },
+//     {
+//       price: "50.60",
+//       stock: 85,
+//     },
+//     {
+//       price: "10.50",
+//       stock: 30,
+//     },
+//     {
+//       price: "15.70",
+//       stock: 40,
+//     },
+//     {
+//       price: "19.30",
+//       stock: 70,
+//     },
+//     {
+//       price: "22.35",
+//       stock: 45,
+//     },
+//     {
+//       price: "35.30",
+//       stock: 60,
+//     },
+//     {
+//       price: "90.30",
+//       stock: 90,
+//     },
+//   ];
 
-  // let [number  , setNumber]  = useState(1)
+//   // let [number  , setNumber]  = useState(1)
 
-  // let nextnumber = 1;
-  // let prevnumber = 1;
+//   let nextnumber = 1;
+//   let prevnumber = 1;
 
-  // function handlenext() {
-  //   const pageindex = 4;
+//   function handlenext() {
+//     const pageindex = 4;
 
-  //   let lastindex = pageindex * nextnumber;
-  //   let firstindex = lastindex - pageindex;
+//     let lastindex = pageindex * nextnumber;
+//     let firstindex = lastindex - pageindex;
 
-  //   console.log(`firstindex : ${firstindex}`);
-  //   console.log(`lastindex : ${lastindex}`);
+//     console.log(`firstindex : ${firstindex}`);
+//     console.log(`lastindex : ${lastindex}`);
 
-  //   document.getElementById("demo1").innerHTML = product
-  //     .slice(firstindex, lastindex)
-  //     .map((item) => `${item.price}`);
+//     document.getElementById("demo1").innerHTML = product
+//       .slice(firstindex, lastindex)
+//       .map((item) => `${item.price}`);
 
-  //   nextnumber++;
+//     nextnumber++;
 
-  //   if (nextnumber > 3) {
-  //     return (nextnumber = 1);
-  //   }
-  // }
+//     if (nextnumber > 3) {
+//       return (nextnumber = 1);
+//     }
+//   }
 
 
-  // function handleprev() {
-  //   const pageindex = 4;
+//   function handleprev() {
+//     const pageindex = 4;
 
-  //   let lastindex = pageindex * prevnumber;
-  //   let firstindex = pageindex - lastindex;
+//     let lastindex = pageindex * prevnumber;
+//     let firstindex = pageindex - lastindex;
 
-  //   console.log(`first index : ${firstindex}`);
-  //   console.log(`last index : ${lastindex}`);
+//     console.log(`first index : ${firstindex}`);
+//     console.log(`last index : ${lastindex}`);
 
-  //   document.getElementById("demo2").innerHTML = product
-  //     .slice(firstindex, lastindex)
-  //     .map((item) => `${item.price}`);
-
+//     document.getElementById("demo2").innerHTML = product
+//       .slice(firstindex, lastindex)
+//       .map((item) => `${item.price}`);
       
-  //     if (prevnumber > 0) {
-  //     prevnumber--;
+//       prevnumber--
+
+//       if (prevnumber ) {
+//     }
       
-  //   }
-  // }
+//   }
 
-  // filter item
+//   // filter item
 
-  let filter = product.filter((item) => item.price <= 50)
-  let filter1 = product.filter((item) => item.price > 50)
+//   let filter = product.filter((item) => item.price <= 50)
+//   let filter1 = product.filter((item) => item.price > 50)
 
-  console.log(filter);
-  console.log(filter1);
+//   console.log(filter);
+//   console.log(filter1);
   
+// }
+
+/* Array.every */
+
+// every(callbackFn)
+// every(callbackFn, thisArg)
+
+{
+  let arr = [10,2,30,400,550,15]
+
+  let every = arr.every((item) => item < 100)
+  console.log(every);
+  
+}
+
+// some(callbackFn)
+// some(callbackFn, thisArg)
+
+{
+  let arr = [10,2,30,400,550,15]
+
+  let some = arr.some((item) => item < 100)
+  console.log(some);
+  
+}
+
+// fill(value)
+// fill(value, start)
+// fill(value, start, end)
+
+{
+  let arr = [10,20,30,40,50]
+
+  // console.log(arr.fill(100));
+  console.log(arr.fill(100,2,4));
+  
+}
+// {
+
+//   let num = [10 , 455 , 89 , 105 , 76 , 98 , 225]
+
+//   let fill = num.fill(10 , 0 , 5)
+
+//   console.log(fill);
+
+//   console.log(num);
+
+// }
+
+// flat()
+// flat(depth)
+
+{
+  // let arr = [100,200,[300,400],[500,600,700]]
+  let arr2 = [0, 1, [2, [3, [4, 5]]]];
+
+  // console.log(arr.flat());
+  console.log(arr2.flat(4));
+  
+}
+
+// flatMap(callbackFn)
+// flatMap(callbackFn, thisArg)
+
+{
+  let arr = [1,2,3,4,5,6,7]
+
+  let flatmap = arr.flatMap((item) => item<=2 ? [200,300] : item);
+
+  console.log(flatmap);
+  
+}
+
+// keys()
+
+{
+  let arr = ['a','b','c','d']
+
+  let iterator = arr.keys()
+
+  for(let key of iterator){
+    console.log(key);
+    
+  }
 }
