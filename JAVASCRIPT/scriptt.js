@@ -840,33 +840,33 @@
 
 // using return keyword
 
-function demoo() {
-  return console.log("heloo javascript!!!!!!!!!!!!!!!!!!!!!!");
-}
+// function demoo() {
+//   return console.log("heloo javascript!!!!!!!!!!!!!!!!!!!!!!");
+// }
 
-demoo();
+// demoo();
 
 //callback function
 
-function demo(callback) {
-  console.log("hiiiiiiiiiiiiiiiiiiiiii");
-  callback();
-}
+// function demo(callback) {
+//   console.log("hiiiiiiiiiiiiiiiiiiiiii");
+//   callback();
+// }
 
-function demo1() {
-  console.log("helloooooooooooooooooooo");
-}
+// function demo1() {
+//   console.log("helloooooooooooooooooooo");
+// }
 
-demo(demo1);
+// demo(demo1);
 
 // function with arguments
 
-function sum(a, b) {
-  return a + b;
-}
+// function sum(a, b) {
+//   return a + b;
+// }
 
 // sum(3,5)
-console.log(`sum is : ${sum(3, 5)}`);
+// console.log(`sum is : ${sum(3, 5)}`);
 
 // array in js
 
@@ -878,17 +878,17 @@ console.log(`sum is : ${sum(3, 5)}`);
 
 // Array in javascript
 
-{
-  let arr = [1, 2, 3, 4];
-  arr.push(5, 6);
-  arr.push("items");
-  console.log(arr.length);
-  arr.length = 3;
-  arr[2] = "item3";
-  console.log(typeof arr);
+// {
+//   let arr = [1, 2, 3, 4];
+//   arr.push(5, 6);
+//   arr.push("items");
+//   console.log(arr.length);
+//   arr.length = 3;
+//   arr[2] = "item3";
+//   console.log(typeof arr);
 
-  console.log(arr);
-}
+//   console.log(arr);
+// }
 
 // Array.from()
 
@@ -896,17 +896,17 @@ console.log(`sum is : ${sum(3, 5)}`);
 // Array.from(arrayLike, mapFn)
 // Array.from(arrayLike, mapFn, thisArg)
 
-{
-  let array = [1, 2, 3, 4, 5];
+// {
+//   let array = [1, 2, 3, 4, 5];
 
-  console.log(Array.from(array));
-  console.log(Array.from(array, (item) => item + item));
+//   console.log(Array.from(array));
+//   console.log(Array.from(array, (item) => item + item));
 
-  let arr = [...array, 6];
-  console.log(arr);
-  arr.push(7, 8, 9, 10);
-  console.log(arr);
-}
+//   let arr = [...array, 6];
+//   console.log(arr);
+//   arr.push(7, 8, 9, 10);
+//   console.log(arr);
+// }
 
 // Array.of()
 
@@ -938,101 +938,63 @@ console.log(`sum is : ${sum(3, 5)}`);
 //   let arr2 = [3,4]
 
 //   console.log(arr1.concat(arr2,arr2));
-  
-// }
 
+// }
 
 // pop method
 // pop()
 
 {
   // let arr = [1,2,3,4,5,6]
-
   // let array= arr.pop();
-
   // console.log(arr);
-
   // find(callbackFn) [giv index value]
   // find(callbackFn, thisArg)
-
   // let arr = [1,2,3,4,5,6]
   // let findarr = arr.find((element) => element > 5)
-
   // console.log(findarr);
-
   // findIndex(callbackFn)  [giv index]
   // findIndex(callbackFn, thisArg)
-
   // let arr = [10,20,30,40,50]
-
   // let fi = (element) => element > 10
-
   // console.log(arr.findIndex(fi));
-
-    // findLast(callbackFn)
-    // findLast(callbackFn, thisArg)
-
+  // findLast(callbackFn)
+  // findLast(callbackFn, thisArg)
   // const array1 = [5, 12, 50, 130, 44];
-
   // const found = array1.findLast((element) => element > 40);
-
   // console.log(found);
-
   // findLastIndex(callbackFn)
   // findLastIndex(callbackFn, thisArg)
-
   // const array1 = [5, 12, 50, 130, 44];
-
   // const found = array1.findLastIndex((element) => element > 40);
-
   // console.log(found);
-
   // join()
   // join(separator)
-
   // let arr = ['srushti','gangani']
-
   // console.log(arr.join());
   // console.log(arr.join(''));
   // console.log(arr.join('-'));
-
   // lastIndexOf(searchElement)
   // lastIndexOf(searchElement, fromIndex)
-
-
   // let arr = ['srushti','gangani']
-
   // console.log(arr.lastIndexOf('gangani'));
-  
   // reverse()
-
   // let arr = ['srushti','gangani']
-
   // console.log(arr.reverse());
-
   // shift()
-
   // let arr = [1,2,3,4,5]
-
   // console.log(arr.shift());
   // console.log(arr);
-
   // unshift()
   // unshift(element1)
   // unshift(element1, element2)
   // unshift(element1, element2, /* …, */ elementN)
-
-
   // console.log(arr.unshift());
   // console.log(arr);
-  
   // console.log(arr.unshift(0,10));
   // console.log(arr);
-
   // values()
-
   // let arr = ['apple','mango','pineapple']
-
 }
 
 // Array.prototype.copyWithin()
@@ -1042,13 +1004,11 @@ console.log(`sum is : ${sum(3, 5)}`);
 
 {
   // let arr = [1,2,3,4,5,6,7,8,9]
-
   // console.log(arr.copyWithin());
   // console.log(arr.copyWithin(3));
   // console.log(arr.copyWithin(6));
   // console.log(arr.copyWithin(3,5));
   // console.log(arr.copyWithin(3,6,8));  //123786789
-  
 }
 
 // splice(start)
@@ -1059,12 +1019,10 @@ console.log(`sum is : ${sum(3, 5)}`);
 
 {
   // let arr = [1,2,3,4,5,6,7,8,9]
-
   // console.log(arr.splice(3));
   // console.log(arr.splice(3,2));
   // console.log(arr.splice(3 , 2 , 'may'));
   // console.log(arr);
-  
 }
 
 // entries()
@@ -1076,13 +1034,113 @@ console.log(`sum is : ${sum(3, 5)}`);
 
 //   console.log(i1.next().value);
 //   console.log(i1.next().value);
-  
+
 // }
 
 // {
 //     for(let i=0 ; i<10 ; i++){
 //       li=4*i
-      
+
 //       console.log(`${li} , ${4*(i+1)}`);
 //     }
 // }
+
+{
+  let product = [
+    {
+      price: "9.60",
+      stock: 58,
+    },
+    {
+      price: "20.60",
+      stock: 50,
+    },
+    {
+      price: "19.60",
+      stock: 80,
+    },
+    {
+      price: "50.60",
+      stock: 85,
+    },
+    {
+      price: "10.50",
+      stock: 30,
+    },
+    {
+      price: "15.70",
+      stock: 40,
+    },
+    {
+      price: "19.30",
+      stock: 70,
+    },
+    {
+      price: "22.35",
+      stock: 45,
+    },
+    {
+      price: "35.30",
+      stock: 60,
+    },
+    {
+      price: "90.30",
+      stock: 90,
+    },
+  ];
+
+  // let [number  , setNumber]  = useState(1)
+
+  // let nextnumber = 1;
+  // let prevnumber = 1;
+
+  // function handlenext() {
+  //   const pageindex = 4;
+
+  //   let lastindex = pageindex * nextnumber;
+  //   let firstindex = lastindex - pageindex;
+
+  //   console.log(`firstindex : ${firstindex}`);
+  //   console.log(`lastindex : ${lastindex}`);
+
+  //   document.getElementById("demo1").innerHTML = product
+  //     .slice(firstindex, lastindex)
+  //     .map((item) => `${item.price}`);
+
+  //   nextnumber++;
+
+  //   if (nextnumber > 3) {
+  //     return (nextnumber = 1);
+  //   }
+  // }
+
+
+  // function handleprev() {
+  //   const pageindex = 4;
+
+  //   let lastindex = pageindex * prevnumber;
+  //   let firstindex = pageindex - lastindex;
+
+  //   console.log(`first index : ${firstindex}`);
+  //   console.log(`last index : ${lastindex}`);
+
+  //   document.getElementById("demo2").innerHTML = product
+  //     .slice(firstindex, lastindex)
+  //     .map((item) => `${item.price}`);
+
+      
+  //     if (prevnumber > 0) {
+  //     prevnumber--;
+      
+  //   }
+  // }
+
+  // filter item
+
+  let filter = product.filter((item) => item.price <= 50)
+  let filter1 = product.filter((item) => item.price > 50)
+
+  console.log(filter);
+  console.log(filter1);
+  
+}
