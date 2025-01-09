@@ -1228,3 +1228,46 @@
     
   }
 }
+
+// Array.reduce()
+
+// reduce(callbackFn)
+// reduce(callbackFn, initialValue)
+
+{
+  let arr = [10,20,30,40]
+
+  // console.log(arr.reduce((next,prev) => next*prev));
+  console.log(arr.reduceRight((next,prev) => next*prev));
+  
+}
+
+// Array.sort()
+
+{
+  let arr = ['srushti' , 'ami' , 'bansi' , 'charmi' , 'deny' , 'jemi']
+  let arr1 = [1 , 2 , 300 ,320 , 4 , 450 ,42 ,51 ]
+
+  console.log(arr.sort());
+  console.log(arr1.sort());
+  console.log(arr1.sort((a,b) => a-b));
+  
+}
+
+// Array.With()
+
+// arrayInstance.with(index, value)
+
+{
+    const array = {
+    length: 3,
+    unrelated: "foo",
+    0: 5,
+    2: 4,
+    3: 3,
+  };
+
+  console.log(array);
+  console.log(Array.prototype.with.call(array , 1 , 4));
+  console.log(Array.prototype.with.call(array , 3 , 40));
+}
