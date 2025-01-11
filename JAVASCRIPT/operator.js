@@ -37,3 +37,51 @@
     console.log(`reminder is : ${reminder}`);
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// comapre 2 string
+
+let str1 = "hello";
+let str2 = "hello";
+
+if (str1 === str2) {
+    console.log(`Equal`);
+} else {
+    console.log(`not equal`);
+    
+}
+
+{
+    let n=100
+
+    for(let i=2 ; i<=n ; i++){
+        if(n % 1 == 0){
+            
+        }
+        console.log(i);
+    }
+    
+}

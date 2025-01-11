@@ -60,9 +60,59 @@
 
 {
     
-    
+    let str = "srushti"
 
+    let reverse = ""
     
+    for(let i=str.length-1;i>=0;i--){
+        reverse+=str[i]
+    }
+    console.log(reverse);
     
 }
 
+// calculates the sum of all elements in an array
+
+{
+    let arr = [10,20,30,40,50]
+    let sum=0
+
+    for(let i=0 ; i<arr.length ; i++){
+        sum += arr[i]
+    }
+    console.log(sum);
+    
+}
+
+// finds the largest number in an array.
+
+{
+    let arr = [10,20,30,40,60,50,1000]
+    let largest = arr[0]
+
+    for(i=0 ; i<arr.length ; i++){
+        if(arr[i] > largest){
+            largest = arr[i]
+        }
+    }
+    console.log(largest);
+    
+}
+
+// counts the number of vowels in a given string
+
+{
+    let str = "aeiou";
+
+    let vowels="a,e,i,o,u,A,E,I,O,U";
+
+    let count = 0;
+
+    for(let i=0 ; i<str.length ; i++){
+        if(str == vowels){
+            count++;
+        }
+    }
+    console.log(count);
+    
+}
