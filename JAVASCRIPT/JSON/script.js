@@ -3,14 +3,14 @@
 
 // javascript to json format
 
-{
-    let obj = {name:"srushti" , age:19 , gender:"female"}
-    console.log(obj);
+// {
+//     let obj = {name:"srushti" , age:19 , gender:"female"}
+//     console.log(obj);
 
-    let jsonobj = JSON.stringify(obj)
-    console.log(jsonobj);
+//     let jsonobj = JSON.stringify(obj)
+//     console.log(jsonobj);
     
-}
+// }
 
 // json to javascript
 
@@ -26,45 +26,57 @@
 
 // javascript fetch
 
-{
-    async function data(){
-        let res = await fetch("http://localhost:3000/profile")
-        let dataa = await res.json()
-        console.log(dataa.name);  
-    }
+// {
+//     async function data(){
+//         let res = await fetch("http://localhost:3000/profile")
+//         let dataa = await res.json()
+//         console.log(dataa.name);  
+//     }
 
-    data()
-}
+//     data()
+// }
 
 //javascript function
 
-{
-    function sum(a,b){
-        console.log(a+b)
-    }
+// {
+//     function sum(a,b){
+//         console.log(a+b)
+//     }
 
-    sum(10,20)
-}
-{
-    function sub([a,b]){
-        console.log(a-b);
+//     sum(10,20)
+// }
+// {
+//     function sub([a,b]){
+//         console.log(a-b);
         
+//     }
+//     sub([10,20])
+// }
+
+{
+    arr1 = [10,20]
+    arr2 = [30,40]
+
+    function multi(){
+        console.log(...arr1);
+        console.log(...arr2);
+        console.log(arr1[0] * arr2[1]);
     }
-    sub([10,20])
+        multi()
 }
 
 // javascript arrow function
 
-{
-    let func = (a,b) => console.log(a+b);
-    func(10,30)
+// {
+//     let func = (a,b) => console.log(a+b);
+//     func(10,30)
 
-}
+// }
 
-const sum = () => {
-    console.log('helloooooooooooooooooooooooooooooo');
-}
-sum()
+// const sum = () => {
+//     console.log('helloooooooooooooooooooooooooooooo');
+// }
+// sum()
 
 // syncronous or asyncronous function
 
@@ -79,4 +91,12 @@ setTimeout(() => {
     console.log("heloooo guyessss");
 },10000)
 
+const func = setInterval(() => {
+    console.log("hiiiiiiiiiii");
+}, 2000)
 
+console.log(func);
+
+setInterval(() => {
+    clearInterval(func)
+}, 10000)
