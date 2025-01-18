@@ -38,6 +38,20 @@
 
 //javascript function
 
+// pure function & impure function
+
+let a = 100
+
+function sum(b){
+  return a + b
+}
+
+a++
+
+console.log(sum(20 , 30));
+console.log(sum(10 , 10));
+console.log(sum(15 , 15));
+
 // {
 //     function sum(a,b){
 //         console.log(a+b)
@@ -87,16 +101,47 @@ setInterval
 clearInterval
 */
 
-setTimeout(() => {
-    console.log("heloooo guyessss");
-},10000)
+// setTimeout(() => {
+//     console.log("heloooo guyessss");
+// },1000)
 
-const func = setInterval(() => {
-    console.log("hiiiiiiiiiii");
-}, 2000)
+function fun(a,b){
+    console.log(a ** b);
+    console.log(a + b);
 
-console.log(func);
+}
 
-setInterval(() => {
-    clearInterval(func)
-}, 10000)
+let t = setTimeout(() =>{
+    fun(10,20);
+},1000)
+
+// setTimeout(()=>{
+//     clearTimeout(t);
+// }) 
+    
+
+
+
+
+// const func = setInterval(() => {
+//     console.log("hiiiiiiiiiii");
+// }, 2000)
+
+// function f1(a,b){
+//     console.log(a / b);
+// }
+
+// let func = setInterval(() => {
+//     f1(20,10)
+// })
+
+// setInterval(() => {
+//     clearInterval(func)
+// },200)
+
+// console.log(func);
+
+// setInterval(() => {
+//     clearInterval(func)
+// }, 10000)
+
