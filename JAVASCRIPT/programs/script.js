@@ -151,19 +151,117 @@
 
 {
     function Prime(num) {
-        for (let i = 2; i < num; i++) {
-            if (num % i === 0 || num == 1 || num == 0) {
-                console.log(`${num} is not a prime number`);
+        if(num <= 1){
+            console.log(`${num} is not prime number`);
+        }else{
+            let isPrime = true
+            for (let i = 2; i < num; i++) {
+                if (num % i === 0) {
+                    return true;
+                    isPrime = false;
+                    break;
+                }
+                else{
+                    console.log(`${num} is a prime number`);               
+                }
             }
-            else{
-                console.log(`${num} is a prime number`);               
+            if(isPrime){
+                console.log(`${num} is prime number`);
+            }else{
+                console.log(`${num} is not prime number`);
             }
         }
-        
     }
-    Prime(2)
+    Prime(7)
 }
 // 14)JavaScript Program to Print All Prime Numbers in an Interval
 
+{
+    
+}
 
+// 15)JavaScript Program to Find the Factorial of a Number
+
+{
+    let fac = 1
+    let num = 5
+
+    for(let i = 0;i<num ; i++){
+        fac = fac * (num-i)
+    }
+    console.log(`factorial of ${num} is = ${fac}`);
+    
+}
+// 16)JavaScript Program to Display the Multiplication Table
+
+{
+    let num = 5
+
+    for(i=1 ; i<=10 ; i++){
+        console.log(`5 * ${i} = ${num*i}`);
+    }
+}
+// 17)JavaScript Program to Print the Fibonacci Sequence
+
+{
+    let 
+}
+// 18)JavaScript Program to Check Armstrong Number
+
+{
+    let num = 153
+    let sum = 0
+    let temp = num
+    while (temp > 0) {
+        let digit = temp % 10
+        sum += digit * digit * digit
+        temp = Math.floor(temp / 10)
+    }
+    if (sum === num) {
+    console.log(` Armstrong number.`);
+    } else {
+    console.log(` not Armstrong number.`);
+    }
+}
+
+// 19)JavaScript Program to Find Armstrong Number in an Interval
+
+{
+
+}
+
+// 20)JavaScript Program to Make a Simple Calculator
+
+{
+    function calculater(num1,num2,calc){
+        switch(calc){
+            case '+':
+                let sum = num1+num2
+                console.log(`${num1} + ${num2} = ${sum}`);
+                break;
+            case '-':
+                let sub = num1-num2
+                console.log(`${num1} - ${num2} = ${sub}`);
+                break;
+            case '*':
+                let multi = num1 * num2
+                console.log(`${num1} * ${num2} = ${multi}`);
+                break;
+            case '/':
+                let div = num1 / num2
+                console.log(`${num1} / ${num2} = ${div}`);
+                break;
+            case '%'
+        }
+    }
+}
+
+// 21)JavaScript Program to Find the Sum of Natural Numbers
+
+{
+
+}
+
+// 22)JavaScript Program to Check if the Numbers Have Same Last Digit
+// 23)JavaScript Program to Find HCF or GCD
 
