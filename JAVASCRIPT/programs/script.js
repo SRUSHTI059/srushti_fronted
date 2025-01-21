@@ -204,7 +204,23 @@
 // 17)JavaScript Program to Print the Fibonacci Sequence
 
 {
-    let 
+    function fibbo(num){
+        let n1 = 0
+        let n2 = 1
+        let sum
+
+        console.log(`${n1}`);
+        console.log(`${n2}`);
+        
+
+        for(let i=1 ; i<=num ; i++){
+            sum = n1 + n2 
+            n1 = n2
+            n2 = sum
+            console.log(`${sum}`);
+        }
+    }
+    fibbo(5)
 }
 // 18)JavaScript Program to Check Armstrong Number
 
@@ -251,17 +267,74 @@
                 let div = num1 / num2
                 console.log(`${num1} / ${num2} = ${div}`);
                 break;
-            case '%'
+            case '%':
+                let reminder = num1 % num2
+                console.log(`${num1} % ${num2} = ${reminder}`);
+                break;
+            default : 
+                console.log(`error`);
+                break;
         }
     }
+    calculater(20,10,'%')
 }
 
 // 21)JavaScript Program to Find the Sum of Natural Numbers
 
 {
-
+    function sum(num){
+        let sum=0
+        for(i=1 ; i<=num ; i++){
+            sum+=i
+        }
+        console.log(`${sum}`);
+    }
+    sum(5)
 }
 
 // 22)JavaScript Program to Check if the Numbers Have Same Last Digit
+
+{
+    function lastdigit(num1,num2){
+        let n1 = num1 % 100
+        let n2 = num2 % 100
+
+        if(n1 == n2){
+            console.log(`${num1} and ${num2} both have same last digits.`); 
+        }
+        else{
+            console.log(`${num1} and ${num2} both have not same last digits.`);
+        }
+    }
+    lastdigit(1888,2998)
+}
+
 // 23)JavaScript Program to Find HCF or GCD
+
+{
+    function myfunction(a,b){
+        let smaller = Math.min(a,b)
+        let hcf = 1
+
+        for(let i=1 ; i<=smaller ; i++){
+            if(a % i === 0 && b % i === 0){
+                hcf = i
+            }
+        }
+        console.log(`${hcf}`);
+    }
+    myfunction(20,12)
+}
+
+// 24)JavaScript Program to Find LCM
+// 25)JavaScript Program to Find the Factors of a Number
+// 26)JavaScript Program to Find Sum of Natural Numbers Using Recursion
+// 27)JavaScript Program to Guess a Random Number
+// 28)JavaScript Program to Shuffle Deck of Cards
+// 29)JavaScript Program to Display Fibonacci Sequence Using Recursion
+// 30)JavaScript Program to Find Factorial of Number Using Recursion
+// 31)JavaScript Program to Convert Decimal to Binary
+// 32)JavaScript Program to Find ASCII Value of Character
+
+
 
