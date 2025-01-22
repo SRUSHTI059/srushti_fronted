@@ -327,7 +327,17 @@
 }
 
 // 24)JavaScript Program to Find LCM
+
+{
+    
+}
+
 // 25)JavaScript Program to Find the Factors of a Number
+
+{
+    
+}
+
 // 26)JavaScript Program to Find Sum of Natural Numbers Using Recursion
 // 27)JavaScript Program to Guess a Random Number
 // 28)JavaScript Program to Shuffle Deck of Cards

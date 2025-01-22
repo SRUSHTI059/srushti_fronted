@@ -40,17 +40,17 @@
 
 // pure function & impure function
 
-let a = 100
+// let a = 100
 
-function sum(b){
-  return a + b
-}
+// function sum(b){
+//   return a + b
+// }
 
-a++
+// a++
 
-console.log(sum(20 , 30));
-console.log(sum(10 , 10));
-console.log(sum(15 , 15));
+// console.log(sum(20 , 30));
+// console.log(sum(10 , 10));
+// console.log(sum(15 , 15));
 
 // {
 //     function sum(a,b){
@@ -67,17 +67,17 @@ console.log(sum(15 , 15));
 //     sub([10,20])
 // }
 
-{
-    arr1 = [10,20]
-    arr2 = [30,40]
+// {
+//     arr1 = [10,20]
+//     arr2 = [30,40]
 
-    function multi(){
-        console.log(...arr1);
-        console.log(...arr2);
-        console.log(arr1[0] * arr2[1]);
-    }
-        multi()
-}
+//     function multi(){
+//         console.log(...arr1);
+//         console.log(...arr2);
+//         console.log(arr1[0] * arr2[1]);
+//     }
+//         multi()
+// }
 
 // javascript arrow function
 
@@ -105,15 +105,15 @@ clearInterval
 //     console.log("heloooo guyessss");
 // },1000)
 
-function fun(a,b){
-    console.log(a ** b);
-    console.log(a + b);
+// function fun(a,b){
+//     console.log(a ** b);
+//     console.log(a + b);
 
-}
+// }
 
-let t = setTimeout(() =>{
-    fun(10,20);
-},1000)
+// let t = setTimeout(() =>{
+//     fun(10,20);
+// },1000)
 
 // setTimeout(()=>{
 //     clearTimeout(t);
@@ -144,4 +144,58 @@ let t = setTimeout(() =>{
 // setInterval(() => {
 //     clearInterval(func)
 // }, 10000)
+
+/* Javascript alert() */
+
+// function clicks(){
+//   return alert('Hi, I Am a Javascript!!!')
+// }
+
+/* Javascript prompt() */
+
+
+// function User(){
+//   let names =  parseInt(prompt('UserName' , ))
+//   return names;
+// }
+
+// let value = User()
+
+// console.log(value);
+
+/* Javascript conform() */
+
+// const conformation = () => {
+//   return console.log(confirm('Are You Housekeeper!!!!!!!'));
+// }
+
+/* Javascript Array Distructuring */
+
+// {
+
+//   let array = [1, 2, 3, 4, 5, 6]
+
+//   const [num1, num2, num3, num4, num5] = array
+
+//   console.log(num1);
+//   console.log(num2);
+// }
+
+
+/* Javascript Object Distructuring */
+
+// {
+//   let profile = {
+//     name:'srushti',
+//     age:19,
+//     email:'example45@gmail.com'
+//   }
+
+//   const {name , age , email} = profile
+
+//   console.log(name);
+//   console.log(age);
+//   console.log(email);
+
+// }
 
