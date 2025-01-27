@@ -201,24 +201,83 @@ clearInterval
 
 // DOM document object model
 
-function styles(){
-    let dom = document.querySelector('div')
-    dom.setAttribute('id' , 'firstDiv')
-    document.getElementById('firstDiv').style.backgroundColor = "red"
-}
+// function styles(){
+//     let dom = document.querySelector('div')
+//     dom.setAttribute('id' , 'firstDiv')
+//     document.getElementById('firstDiv').style.backgroundColor = "lavender"
+// }
 
 /* Document.getElementById() */
 
 {
-    let dom = document.getElementById('firstDiv').innerHTML
+    // let dom = document.getElementById('firstDiv').innerHTML
 
-    console.log(dom);
+    // console.log(dom);
 
-    let dom1 = document.getElementById('firstDiv').textContent
+    // let dom1 = document.getElementById('pre').textContent
 
-    console.log(dom1);
+    // console.log(dom1);
 
-    let  dom2 = document.getElementById('firstDiv').innerText
+    // let  dom2 = document.getElementById('pre').innerText
 
-    console.log(dom2);
+    // console.log(dom2);
+}
+
+/* document.getElementByName */
+
+{
+
+    function focusInputs(){
+        let dom = document.getElementsByName('fname')[0]
+        console.log(dom);
+        
+        dom.focus()
+    }
+
+    function blurInputs(){
+        let dom = document.getElementsByName('fname')[0]
+        dom.blur()
+    }
+
+}
+
+/* document.getElementByTagName */
+
+{
+    // let dom = document.getElementsByTagName('div')[0]
+
+    // dom.style.backgroundColor = "blue"
+    // dom.style.height = "100px"
+
+    // console.log(dom);
+}
+
+/* querySelector And querySelectorAll */
+
+{
+    // let = document.querySelector('#root a')
+
+    // let = document.querySelector('a')
+
+    // let  = document.querySelector('a[target="_self"]')
+
+    // let  = document.querySelector('*')
+
+    // console.log(dom);
+    
+}
+
+/* Javascript Events */
+
+/* IIFE Functions */
+/* immidiately invoked function expression */
+
+{
+    
+    let styels = addEventListener('onclick' , (function styles(){
+        let dom = document.getElementsByClassName('box')[0].classList
+        dom.toggle('bg-color')
+        console.log(dom);
+    })())
+    
 }
