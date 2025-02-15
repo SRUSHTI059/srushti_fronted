@@ -15,21 +15,25 @@
     // })
 
     
-        $(function(){
-            $('#hide').click(function(){
-                $('#heading').hide()
-            })
-        })
+        // $(function(){
+        //     $('#hide').click(function(){
+        //         $('#heading').hide()
+        //     })
+        // })
 
 
-        $(function(){
-            $('#show').click(function(){
-                $('#heading').show()
-            })
-        })
+        // $(function(){
+        //     $('#show').click(function(){
+        //         $('#heading').show()
+        //     })
+        // })
 
-        $(function(){
-            $('#toggle').click(function(){
-                $('#heading').toggle()
-            })
+        // $(function(){
+        //     $('#toggle').click(function(){
+        //         $('#heading').toggle()
+        //     })
+        // })
+
+        $('fadein').click(function(){
+            $
         })
