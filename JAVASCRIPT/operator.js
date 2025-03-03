@@ -81,7 +81,7 @@ if (str1 === str2) {
         if(n % 1 == 0){
             
         }
-        console.log(i);
+        console.log(n % 1==0);
     }
     
 }

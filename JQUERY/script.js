@@ -35,5 +35,5 @@
         // })
 
         $('fadein').click(function(){
-            $
+            
         })

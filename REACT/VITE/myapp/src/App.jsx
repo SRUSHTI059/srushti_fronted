@@ -1,7 +1,7 @@
-// import './index.css'
+import './index.css'
 import './App.css'
-import FirstComponents from './coponent/component'
-import { Image, Profile } from './coponent/profile'
+// import FirstComponents from './coponent/component'
+// import { Image, Profile } from './coponent/profile'
 
 // function App() {
 
@@ -34,15 +34,15 @@ import { Image, Profile } from './coponent/profile'
 //   );
 // }
 
-function Application(){
-  return (
-    <>
-    <h1>heading tag</h1>
-    <FirstComponents/>
-    <Profile/>
-    <Image/>
-    </>
-  )
-}
+// function Application(){
+//   return (
+//     <>
+//     <h1>heading tag</h1>
+//     <FirstComponents/>
+//     <Profile/>
+//     <Image/>
+//     </>
+//   )
+// }
 
-export default Application
+// export default Application
