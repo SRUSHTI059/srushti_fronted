@@ -1,11 +1,13 @@
 import './index.css'
 import './App.css'
-import Props from './reactprops/props'
-import Jsxmodule from '../jsxmodule/jsxmodule'
-import Demo from '../LISTMAP/Demo'
-import Image from '../LISTMAP/Image'
+// import Props from './reactprops/props'
+// import Jsxmodule from '../jsxmodule/jsxmodule'
+// import Demo from '../LISTMAP/Demo'
+// import Image from '../LISTMAP/Image'
 // import FirstComponents from './coponent/component'
 // import { Image, Profile } from './coponent/profile'
+
+import Layout from '../pages/Layout'
 
 function App() {
 
@@ -27,11 +29,15 @@ function App() {
     //     </div>
     // </>
 
+    // <div>
+    //     <Props/>
+    //     <Jsxmodule/>
+    //     <Demo/>
+    //     <Image/>
+    // </div>
+
     <div>
-        <Props/>
-        <Jsxmodule/>
-        <Demo/>
-        <Image/>
+      <Layout/>
     </div>
   )
 }
