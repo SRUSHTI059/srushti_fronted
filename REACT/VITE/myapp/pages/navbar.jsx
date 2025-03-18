@@ -6,9 +6,11 @@ function Navbar() {
         <div>
             <nav className='flex justify-evenly bg-purple-500 text-white text-xl'>
                 <Link to="/home">Home</Link>
-                <Link to="/about">About Us</Link>
-                <Link to="/contact">Error</Link>
-                <Link to="/login">Login</Link>
+                <Link to="/contact">Contact Us</Link>
+                <Link to="/cart">Cart</Link>
+                <Link to="/profile">Profile</Link>
+                <Link to="/shop">Shop</Link>
+                <Link to="*">Error</Link>
             </nav>
         </div>
     );
